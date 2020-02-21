@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        @keyframes blink {
+            from {
+                stroke-width: 0
+            }
+
+            to {
+                stroke-width: 3
+            }
+        }
+
+        @keyframes wushu1 {
+from {
+transform:rotate(0deg);
+transform-origin: 112px 120px;
+animation-timing-function: ease-in-out;
+}
+to {
+transform:rotate(8deg);
+transform-origin: 100px 100px;
+animation-timing-function: ease-in-out;
+}
+}
+ @keyframes wushu2 {
+ from {
+ transform:rotate(0deg);
+ transform-origin: 112px 120px;
+ animation-timing-function: ease-in-out;
+ }
+ to {
+ transform:rotate(-10deg);
+ transform-origin: 100px 100px;
+ animation-timing-function: ease-in-out;
+ }
+ }
+
+        @keyframes wiggle {
+        from {
+        transform:rotate(0deg);
+        transform-origin: 112px 120px;
+        animation-timing-function: linear;
+        }
+        to {
+        transform:rotate(10deg);
+        transform-origin: 112px 120px;
+        animation-timing-function: linear;
+        }
+        }
+
+        circle {
+            animation-duration: 3s;
+            animation-name: blink;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            stroke: red;
+
+
+        }
+
+        .konoha1 {
+            animation-duration: 1s;
+            animation-name: wushu1;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+        }
+        .konoha2 {
+        animation-duration: 1s;
+        animation-name: wushu2;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+
+        }
+
+        .ears {
+            animation-duration: 3s;
+            animation-name: wiggle;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+
+
+        }
+
+        .skin {
+            fill: yellow;
+            stroke: yellow;
+
+        }
+
+        .skin:hover {
+            fill: orange;
+            stroke: orange;
+
+        }
+    </style>
+</head>
+
+<body>
+    <svg viewBox="0 0 300 300">
+
+        <!-- bg -->
+        <rect class="bg" width="100%" height="100%" fill="#f1f1f1" />
+
+        <g class="skin">
+            <circle cx="150" cy="150" r="80" />
+            <line class="ears" x1="120" y1="100" x2="80" y2="30" stroke-width="40" stroke-linecap="round" />
+            <line class="ears" x1="170" y1="100" x2="190" y2="30" stroke-width="40" stroke-linecap="round" />
+
+        </g>
+        <!-- teter -->
+        <!-- <circle class="skin" cx="150" cy="150" r="80" fill="yellow" /> -->
+
+        <!-- yeuse -->
+        <circle cx="185" cy="135" r="10" stroke="blue" fill="black" stroke-width="1" />
+        <circle cx="120" cy="135" r="10" stroke="blue" fill="black" stroke-width="1" />
+
+        <!-- ouje -->
+        <circle cx="195" cy="175" r="20" stroke="red" fill="red" stroke-width="5" />
+        <circle cx="105" cy="175" r="20" stroke="red" fill="red" stroke-width="5" />
+
+        <!-- chebou -->
+        <line style= "transform-origin: bottom right 35px;" x1="120" x2="180" y1="180" y2="180" stroke="black"
+            stroke-width="3" />
+
+
+        <!-- yellow ears -->
+        <!-- <line class="skin" x1="120" y1="100" x2="80" y2="30" stroke="yellow" stroke-width="40"
+            stroke-linecap="round" />
+        <line class="skin" x1="170" y1="100" x2="190" y2="30" stroke="yellow" stroke-width="40"
+            stroke-linecap="round" /> -->
+        <!-- brown ears -->
+        <line class="ears" x1="90" y1="50" x2="80" y2="30" stroke="brown" stroke-width="30" stroke-linecap="round" />
+        <line class="ears" x1="185" y1="50" x2="190" y2="30" stroke="brown" stroke-width="30" stroke-linecap="round" />
+
+
+        <!-- konoha -->
+
+        <line x1="80" y1="100" x2="210" y2="100" stroke="black" stroke-width="20" stroke-linecap="round" />
+        <line class="konoha1" x1="80" y1="100" x2="50" y2="50" stroke="black" stroke-width="20" stroke-linecap="round" />
+        <line class="konoha2" x1="80" y1="100" x2="50" y2="80" stroke="black" stroke-width="20" stroke-linecap="round" />
+
+
+
+
+    </svg>
+    </svg>
+    <svg width="300" height="400" viewbox="0 0 300 400" id="rain"></svg>
+    </div>
+    <svg width="380" height="200" viewbox="0 0 380 200" id="splash"></svg>
+    <script>
+        
+    </script>
+</body>
+
+</html>
