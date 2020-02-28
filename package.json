@@ -1,0 +1,27 @@
+{
+  "name": "datavis",
+  "version": "1.0.0",
+  "description": "[Cheatsheet markdown](https://github.com/Stephane-panda/datavis/blob/master/Mastering%20Markdown%20%C2%B7%20GitHub%20Guides.pdf)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "baton": "parcel 20200228/src/index.html --out-dir 20200228/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stephane-panda/datavis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stephane-panda/datavis/issues"
+  },
+  "homepage": "https://github.com/Stephane-panda/datavis#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "d3": "^5.15.0"
+  }
+}
