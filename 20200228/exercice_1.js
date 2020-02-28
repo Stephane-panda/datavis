@@ -39,7 +39,8 @@ console.log('Noms des villes', nomsDesVilles)
 ]
 */
 
-const villesDePlusDe30000Habitants = villes.filter(ville => ville.population > 30000);
+const villesDePlusDe30000Habitants = villes
+.filter(ville => ville.population > 30000);
 
 console.log('Ville de plus de 30000 habitants', villesDePlusDe30000Habitants)
 
@@ -56,13 +57,17 @@ console.log('Ville de plus de 30000 habitants', villesDePlusDe30000Habitants)
   ]
 */
 
-const habitantsYverdon = villes.find(ville => ville.nom === "Yverdon").population
+const habitantsYverdon = villes
+.find(ville => ville.nom === "Yverdon")
+.population
 
 console.log('Nombre d\'habitants à Yverdon', habitantsYverdon)
 
 // 30143
 sum = (resultat, chiffre) => resultat + chiffre 
-const sommeHabitants = villes.map(ville => ville.population).reduce(sum, 0)
+const sommeHabitants = villes
+.map(ville => ville.population)
+.reduce(sum, 0)
 
 console.log('Nombre total d\'habitants', sommeHabitants)
 
