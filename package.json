@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "baton": "parcel 20200228/src/index.html --out-dir 20200228/dist"
+    "baton": "parcel 20200228/src/index.html --out-dir 20200228/dist",
+    "pie": "parcel 20200306/graphique-d3/index.html --out-dir 20200306/dist"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,8 @@
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
-    "d3": "^5.15.0"
+    "d3": "^5.15.0",
+    "node-fetch": "^2.6.0",
+    "ramda": "^0.27.0"
   }
 }
