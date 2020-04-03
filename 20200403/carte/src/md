@@ -8,3 +8,17 @@ ndjson-cat vevey.json \
 | ndjson-reduce \
 | ndjson-map "{type: 'FeatureCollection', features: d}" \
 > routes.json
+
+ndjson-cat vevey.json \
+| ndjson-split "d.features" \
+| ndjson-filter "d.geometry.type === 'LineString'"\
+| ndjson-reduce \
+| ndjson-map "{type: 'FeatureCollection', features: d}" \
+> routes.json
+
+ndjson-cat vevey.json \
+| ndjson-split "d.features" \
+| ndjson-filter "d.geometry.type === 'Polygon'" \
+| ndjson-reduce \
+| ndjson-map "{type: 'FeatureCollection', features: d}" \
+> batiments.json

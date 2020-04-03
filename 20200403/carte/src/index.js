@@ -1,7 +1,7 @@
 import * as d3 from 'd3'
 
-import routes from 'routes.json'
-import batiments from 'batiments.json'
+import routes from '.routes.json'
+import batiments from '.batiments.json'
 
 
 
