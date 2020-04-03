@@ -1,0 +1,10 @@
+curl "https://api.openstreetmap.org/api/0.6/map?bbox=6.842,46.459,6.845,46.461" \
+| osmtogeojson > vevey.json
+
+ndjson-cat vevey.json \
+| ndjson-split "d.features" \
+| ndjson-filter "d.geometry.type === 'LineString'" \
+| ndjson-filter "d.properties.highway" \
+| ndjson-reduce \
+| ndjson-map "{type: 'FeatureCollection', features: d}" \
+> routes.json
