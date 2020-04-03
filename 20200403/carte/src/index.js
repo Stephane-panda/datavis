@@ -1,7 +1,12 @@
-import * as d3 from 'd3'
+import {
+    geoPath,
+    geoMercator,
+    select
+} from 'd3'
 
-import routes from '.routes.json'
-import batiments from '.batiments.json'
+import routes from '/routes.json'
+import batiments from '/batiments.json'
+import moi from '/chezmoi.json'
 
 
 
@@ -49,3 +54,14 @@ groupeBatiments.selectAll('path')
     .attr('fill', 'indianred')
     .attr('stroke', 'black')
 
+
+    console.log(moi.features)
+const chezmoi = svg.append('g')
+chezmoi.selectAll('path')
+    .data(moi.features)
+    .enter()
+    .append('path')
+        .attr('d', pathCreator)
+    
+        .attr('stroke', 'black')
+    .attr('fill', 'forestgreen')

@@ -28885,50 +28885,4676 @@ Object.keys(_d3Zoom).forEach(function (key) {
     }
   });
 });
-},{"./dist/package.js":"../../../node_modules/d3/dist/package.js","d3-array":"../../../node_modules/d3-array/src/index.js","d3-axis":"../../../node_modules/d3-axis/src/index.js","d3-brush":"../../../node_modules/d3-brush/src/index.js","d3-chord":"../../../node_modules/d3-chord/src/index.js","d3-collection":"../../../node_modules/d3-collection/src/index.js","d3-color":"../../../node_modules/d3-color/src/index.js","d3-contour":"../../../node_modules/d3-contour/src/index.js","d3-dispatch":"../../../node_modules/d3-dispatch/src/index.js","d3-drag":"../../../node_modules/d3-drag/src/index.js","d3-dsv":"../../../node_modules/d3-dsv/src/index.js","d3-ease":"../../../node_modules/d3-ease/src/index.js","d3-fetch":"../../../node_modules/d3-fetch/src/index.js","d3-force":"../../../node_modules/d3-force/src/index.js","d3-format":"../../../node_modules/d3-format/src/index.js","d3-geo":"../../../node_modules/d3-geo/src/index.js","d3-hierarchy":"../../../node_modules/d3-hierarchy/src/index.js","d3-interpolate":"../../../node_modules/d3-interpolate/src/index.js","d3-path":"../../../node_modules/d3-path/src/index.js","d3-polygon":"../../../node_modules/d3-polygon/src/index.js","d3-quadtree":"../../../node_modules/d3-quadtree/src/index.js","d3-random":"../../../node_modules/d3-random/src/index.js","d3-scale":"../../../node_modules/d3-scale/src/index.js","d3-scale-chromatic":"../../../node_modules/d3-scale-chromatic/src/index.js","d3-selection":"../../../node_modules/d3-selection/src/index.js","d3-shape":"../../../node_modules/d3-shape/src/index.js","d3-time":"../../../node_modules/d3-time/src/index.js","d3-time-format":"../../../node_modules/d3-time-format/src/index.js","d3-timer":"../../../node_modules/d3-timer/src/index.js","d3-transition":"../../../node_modules/d3-transition/src/index.js","d3-voronoi":"../../../node_modules/d3-voronoi/src/index.js","d3-zoom":"../../../node_modules/d3-zoom/src/index.js"}],"index.js":[function(require,module,exports) {
+},{"./dist/package.js":"../../../node_modules/d3/dist/package.js","d3-array":"../../../node_modules/d3-array/src/index.js","d3-axis":"../../../node_modules/d3-axis/src/index.js","d3-brush":"../../../node_modules/d3-brush/src/index.js","d3-chord":"../../../node_modules/d3-chord/src/index.js","d3-collection":"../../../node_modules/d3-collection/src/index.js","d3-color":"../../../node_modules/d3-color/src/index.js","d3-contour":"../../../node_modules/d3-contour/src/index.js","d3-dispatch":"../../../node_modules/d3-dispatch/src/index.js","d3-drag":"../../../node_modules/d3-drag/src/index.js","d3-dsv":"../../../node_modules/d3-dsv/src/index.js","d3-ease":"../../../node_modules/d3-ease/src/index.js","d3-fetch":"../../../node_modules/d3-fetch/src/index.js","d3-force":"../../../node_modules/d3-force/src/index.js","d3-format":"../../../node_modules/d3-format/src/index.js","d3-geo":"../../../node_modules/d3-geo/src/index.js","d3-hierarchy":"../../../node_modules/d3-hierarchy/src/index.js","d3-interpolate":"../../../node_modules/d3-interpolate/src/index.js","d3-path":"../../../node_modules/d3-path/src/index.js","d3-polygon":"../../../node_modules/d3-polygon/src/index.js","d3-quadtree":"../../../node_modules/d3-quadtree/src/index.js","d3-random":"../../../node_modules/d3-random/src/index.js","d3-scale":"../../../node_modules/d3-scale/src/index.js","d3-scale-chromatic":"../../../node_modules/d3-scale-chromatic/src/index.js","d3-selection":"../../../node_modules/d3-selection/src/index.js","d3-shape":"../../../node_modules/d3-shape/src/index.js","d3-time":"../../../node_modules/d3-time/src/index.js","d3-time-format":"../../../node_modules/d3-time-format/src/index.js","d3-timer":"../../../node_modules/d3-timer/src/index.js","d3-transition":"../../../node_modules/d3-transition/src/index.js","d3-voronoi":"../../../node_modules/d3-voronoi/src/index.js","d3-zoom":"../../../node_modules/d3-zoom/src/index.js"}],"routes.json":[function(require,module,exports) {
+module.exports = {
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "id": "relation/28063",
+    "properties": {
+      "timestamp": "2020-03-29T12:29:57Z",
+      "version": "204",
+      "changeset": "82777614",
+      "user": "sovereign_ch",
+      "uid": "5755216",
+      "description": "Étape 6 (Montreux–Morges)",
+      "from": "Montreux",
+      "name": "Route du Rhône - Étape 6 (Montreux–Morges)",
+      "name:de": "Rhone-Route - Etappe 6 (Montreux–Morges)",
+      "name:en": "Rhone Route - Stage 6 (Montreux–Morges)",
+      "name:fr": "Route du Rhône - Étape 6 (Montreux–Morges)",
+      "network": "ncn",
+      "operator": "Veloland Schweiz",
+      "ref": "1",
+      "route": "bicycle",
+      "to": "Morges",
+      "type": "route",
+      "id": "relation/28063"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8414969, 46.4594667], [6.8416042, 46.4593946], [6.8418226, 46.4593523], [6.842019, 46.4593151], [6.8422243, 46.4592762], [6.8423415, 46.4592374], [6.8424097, 46.4590804], [6.8424172, 46.4590425], [6.8424301, 46.4589966]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "relation/28516",
+    "properties": {
+      "timestamp": "2020-03-29T12:29:57Z",
+      "version": "113",
+      "changeset": "82777614",
+      "user": "sovereign_ch",
+      "uid": "5755216",
+      "description": "Etappe 1 (Montreux-Bulle)",
+      "distance": "42",
+      "name": "Seen-Route - Etappe 1 (Montreux-Bulle)",
+      "name:de": "Seen-Route - Etappe 1 (Montreux-Bulle)",
+      "name:en": "Lakes Route - Part 1 (Montreux-Bulle)",
+      "name:fr": "Route des lacs - Ėtape 1 (Montreux-Bulle)",
+      "network": "ncn",
+      "operator": "Veloland Schweiz",
+      "ref": "9",
+      "route": "bicycle",
+      "type": "route",
+      "url": "https://www.schweizmobil.ch/fr/suisse-a-velo/itineraires/etappe-0999.html",
+      "id": "relation/28516"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8414969, 46.4594667], [6.8416042, 46.4593946], [6.8418226, 46.4593523], [6.842019, 46.4593151], [6.8422243, 46.4592762], [6.8423415, 46.4592374], [6.8424097, 46.4590804], [6.8424172, 46.4590425], [6.8424301, 46.4589966]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "relation/124582",
+    "properties": {
+      "timestamp": "2020-03-29T12:29:57Z",
+      "version": "541",
+      "changeset": "82777614",
+      "user": "sovereign_ch",
+      "uid": "5755216",
+      "description": "part Switzerland",
+      "name": "Via Romea Francigena - Schweiz",
+      "name:en": "Via Romea Francigena - Swizterland",
+      "name:fr": "Via francigena",
+      "network": "iwn",
+      "operator": "SchweizMobil",
+      "osmc:symbol": "red:red:white_stripe:VF:black",
+      "pilgrimage": "yes",
+      "ref": "70",
+      "route": "hiking",
+      "type": "route",
+      "id": "relation/124582"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8414969, 46.4594667], [6.8416042, 46.4593946], [6.8418226, 46.4593523], [6.842019, 46.4593151], [6.8422243, 46.4592762], [6.8423415, 46.4592374], [6.8424097, 46.4590804], [6.8424172, 46.4590425], [6.8424301, 46.4589966]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "relation/9040057",
+    "properties": {
+      "timestamp": "2020-03-29T12:29:57Z",
+      "version": "12",
+      "changeset": "82777614",
+      "user": "sovereign_ch",
+      "uid": "5755216",
+      "from": "Villeneuve Gare",
+      "name": "Bus 201: Villeneuve Gare - Vevey Funiculaire",
+      "network": "Mobilis",
+      "operator": "VMCV",
+      "ref": "201",
+      "route": "trolleybus",
+      "to": "Vevey Funiculaire",
+      "type": "route",
+      "id": "relation/9040057"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8454878, 46.4598206], [6.8454455, 46.459857], [6.8453072, 46.4599814], [6.8452472, 46.460025], [6.8449032, 46.4602291], [6.8448327, 46.4602697], [6.844679, 46.4603608], [6.8443433, 46.4605866], [6.8442938, 46.4606183], [6.8440787, 46.4607776], [6.8439375, 46.4608845], [6.8438422, 46.4609622], [6.8434948, 46.4612871], [6.8434676, 46.4613086], [6.8433117, 46.4614317], [6.8432177, 46.4615049], [6.843146, 46.4615608]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "relation/9041031",
+    "properties": {
+      "timestamp": "2020-03-29T12:29:57Z",
+      "version": "10",
+      "changeset": "82777614",
+      "user": "sovereign_ch",
+      "uid": "5755216",
+      "from": "Vevey Funiculaire",
+      "name": "Bus 201: Vevey Funiculaire - Villeneuve Gare",
+      "network": "Mobilis",
+      "operator": "VMCV",
+      "ref": "201",
+      "route": "trolleybus",
+      "to": "Villeneuve Gare",
+      "type": "route",
+      "id": "relation/9041031"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8454878, 46.4598206], [6.8454455, 46.459857], [6.8453072, 46.4599814], [6.8452472, 46.460025], [6.8449032, 46.4602291], [6.8448327, 46.4602697], [6.844679, 46.4603608], [6.8443433, 46.4605866], [6.8442938, 46.4606183], [6.8440787, 46.4607776], [6.8439375, 46.4608845], [6.8438422, 46.4609622], [6.8434948, 46.4612871], [6.8434676, 46.4613086], [6.8433117, 46.4614317], [6.8432177, 46.4615049], [6.843146, 46.4615608]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "relation/9445569",
+    "properties": {
+      "timestamp": "2020-03-29T12:29:57Z",
+      "version": "13",
+      "changeset": "82777614",
+      "user": "sovereign_ch",
+      "uid": "5755216",
+      "name": "Bus 202: Pra - Vevey Gare - Charmontey",
+      "network": "Mobilis",
+      "operator": "VMCV",
+      "public_transport:version": "1",
+      "ref": "202",
+      "route": "bus",
+      "type": "route",
+      "id": "relation/9445569"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8454878, 46.4598206], [6.8454455, 46.459857], [6.8453072, 46.4599814], [6.8452472, 46.460025], [6.8449032, 46.4602291], [6.8448327, 46.4602697], [6.844679, 46.4603608], [6.8443433, 46.4605866], [6.8442938, 46.4606183], [6.8440787, 46.4607776], [6.8439375, 46.4608845], [6.8438422, 46.4609622], [6.8434948, 46.4612871], [6.8434676, 46.4613086], [6.8433117, 46.4614317], [6.8432177, 46.4615049], [6.843146, 46.4615608]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "relation/10187641",
+    "properties": {
+      "timestamp": "2020-03-29T12:29:57Z",
+      "version": "10",
+      "changeset": "82777614",
+      "user": "sovereign_ch",
+      "uid": "5755216",
+      "distance": "41",
+      "from": "Morges",
+      "name": "Tour du Léman - Ėtape 3 (Morges - Montreux)",
+      "network": "rcn",
+      "operator": "Veloland Schweiz",
+      "ref": "46",
+      "route": "bicycle",
+      "to": "Montreux",
+      "type": "route",
+      "url": "https://www.schweizmobil.ch/de/veloland/routen/route/etappe-01781.html",
+      "id": "relation/10187641"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8414969, 46.4594667], [6.8416042, 46.4593946], [6.8418226, 46.4593523], [6.842019, 46.4593151], [6.8422243, 46.4592762], [6.8423415, 46.4592374], [6.8424097, 46.4590804], [6.8424172, 46.4590425], [6.8424301, 46.4589966]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/26997833",
+    "properties": {
+      "timestamp": "2018-03-18T10:57:06Z",
+      "version": "8",
+      "changeset": "57287157",
+      "user": "em17275",
+      "uid": "5940462",
+      "highway": "living_street",
+      "lit": "yes",
+      "name": "Rue du Centre",
+      "surface": "asphalt",
+      "id": "way/26997833"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8454878, 46.4598206], [6.8454195, 46.4597606], [6.8451219, 46.4595015], [6.845061, 46.4594458], [6.8448142, 46.4592018], [6.8445805, 46.4589703], [6.8445463, 46.4589317]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/31897229",
+    "properties": {
+      "timestamp": "2017-05-28T23:55:13Z",
+      "version": "11",
+      "changeset": "49056981",
+      "user": "Florian Siegenthaler",
+      "uid": "5761168",
+      "highway": "tertiary",
+      "lit": "yes",
+      "name": "Rue de Lausanne",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "id": "way/31897229"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.843146, 46.4615608], [6.8430294, 46.4614734], [6.8429982, 46.4614056], [6.8429358, 46.4612065], [6.8428909, 46.4611044], [6.842852, 46.4610278], [6.842743, 46.4608499], [6.8426125, 46.4606338], [6.8425438, 46.4605373]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/31897230",
+    "properties": {
+      "timestamp": "2019-10-20T21:19:55Z",
+      "version": "7",
+      "changeset": "75965220",
+      "user": "Matthias Frank",
+      "uid": "287306",
+      "highway": "pedestrian",
+      "name": "Rue du Théâtre",
+      "surface": "asphalt",
+      "id": "way/31897230"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8429982, 46.4614056], [6.8430685, 46.4612911], [6.8430853, 46.4612664], [6.8430912, 46.461247], [6.8430925, 46.4612249], [6.8430817, 46.4611936], [6.8429524, 46.4607794], [6.8429206, 46.4606448], [6.8429095, 46.4605781], [6.8428998, 46.4605387], [6.8428839, 46.4604494], [6.8429093, 46.4603895], [6.8429028, 46.4603491], [6.8428828, 46.4602241]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/31897236",
+    "properties": {
+      "timestamp": "2020-01-14T16:45:40Z",
+      "version": "9",
+      "changeset": "79574775",
+      "user": "Amadeous",
+      "uid": "4759025",
+      "highway": "living_street",
+      "lit": "yes",
+      "maxspeed": "20",
+      "name": "Rue des Deux-Marchés",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "id": "way/31897236"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8450054, 46.4595135], [6.8446196, 46.4596552], [6.8444556, 46.4597046], [6.8441026, 46.4598727], [6.8439658, 46.4599583], [6.8438759, 46.4600161], [6.843809, 46.4600791]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/31897238",
+    "properties": {
+      "timestamp": "2018-03-18T10:53:52Z",
+      "version": "12",
+      "changeset": "57287166",
+      "user": "em17275",
+      "uid": "5940462",
+      "highway": "living_street",
+      "lit": "yes",
+      "maxspeed": "20",
+      "name": "Rue du Conseil",
+      "oneway": "yes",
+      "surface": "asphalt",
+      "id": "way/31897238"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8436335, 46.4606506], [6.8436473, 46.460574], [6.843736, 46.4602944], [6.8437829, 46.4601661], [6.843809, 46.4600791], [6.8437669, 46.4599962], [6.8437434, 46.4598651], [6.8436799, 46.4597592], [6.8436751, 46.4596853], [6.8437521, 46.4594706], [6.8438025, 46.459354], [6.8440083, 46.4591194], [6.8440336, 46.4590826], [6.8440957, 46.4590706], [6.8441547, 46.4590137], [6.8443113, 46.4589159]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/32673170",
+    "properties": {
+      "timestamp": "2018-03-18T10:52:51Z",
+      "version": "9",
+      "changeset": "57287166",
+      "user": "em17275",
+      "uid": "5940462",
+      "highway": "pedestrian",
+      "lit": "yes",
+      "name": "Place Scanavin",
+      "surface": "paving_stones",
+      "id": "way/32673170"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8442979, 46.459524], [6.8439748, 46.4596585], [6.8439045, 46.4597428], [6.8437743, 46.4597359], [6.8436799, 46.4597592]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/32673172",
+    "properties": {
+      "timestamp": "2015-08-31T13:16:04Z",
+      "version": "7",
+      "changeset": "33703588",
+      "user": "schnelli",
+      "uid": "225842",
+      "highway": "pedestrian",
+      "name": "Ruelle des Anciens Fossés",
+      "official_name": "Ruelle des Anciens-Fossés",
+      "id": "way/32673172"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8432261, 46.4597094], [6.8430474, 46.4596944], [6.8429934, 46.4596948], [6.8430348, 46.459684], [6.8430498, 46.4596662], [6.8430933, 46.459458], [6.8431219, 46.4593078], [6.8431306, 46.4592694], [6.8431405, 46.459214], [6.8431488, 46.4589661], [6.8431434, 46.4588912]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/32673173",
+    "properties": {
+      "timestamp": "2009-03-30T19:46:31Z",
+      "version": "1",
+      "changeset": "870902",
+      "user": "Calis",
+      "uid": "96394",
+      "highway": "steps",
+      "id": "way/32673173"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8433284, 46.4597492], [6.8432261, 46.4597094]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/32673174",
+    "properties": {
+      "timestamp": "2017-08-03T00:15:32Z",
+      "version": "6",
+      "changeset": "50793586",
+      "user": "woodpeck_repair",
+      "uid": "145231",
+      "highway": "pedestrian",
+      "id": "way/32673174"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8426125, 46.4606338], [6.8429095, 46.4605781]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/32673175",
+    "properties": {
+      "timestamp": "2009-03-30T19:46:32Z",
+      "version": "1",
+      "changeset": "870902",
+      "user": "Calis",
+      "uid": "96394",
+      "highway": "pedestrian",
+      "id": "way/32673175"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8429206, 46.4606448], [6.8429855, 46.4606456], [6.8433555, 46.4606552], [6.8436335, 46.4606506]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/32673176",
+    "properties": {
+      "timestamp": "2020-01-26T22:14:02Z",
+      "version": "4",
+      "changeset": "80110534",
+      "user": "Amadeous",
+      "uid": "4759025",
+      "highway": "footway",
+      "surface": "fine_gravel",
+      "id": "way/32673176"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8438009, 46.4606301], [6.8438365, 46.4606883]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/32673181",
+    "properties": {
+      "timestamp": "2020-01-26T22:14:43Z",
+      "version": "6",
+      "changeset": "80110555",
+      "user": "Amadeous",
+      "uid": "4759025",
+      "highway": "footway",
+      "lit": "yes",
+      "maxspeed": "20",
+      "surface": "fine_gravel",
+      "id": "way/32673181"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8442938, 46.4606183], [6.8442678, 46.4605697]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/32673182",
+    "properties": {
+      "timestamp": "2020-01-26T22:14:46Z",
+      "version": "4",
+      "changeset": "80110555",
+      "user": "Amadeous",
+      "uid": "4759025",
+      "highway": "footway",
+      "lit": "yes",
+      "name": "Passage de l'Etoile",
+      "surface": "fine_gravel",
+      "id": "way/32673182"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.844119, 46.460392], [6.8440901, 46.4603781]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/32673183",
+    "properties": {
+      "timestamp": "2020-01-26T22:14:51Z",
+      "version": "3",
+      "changeset": "80110534",
+      "user": "Amadeous",
+      "uid": "4759025",
+      "highway": "footway",
+      "name": "Passage de l'Etoile",
+      "surface": "fine_gravel",
+      "tunnel": "yes",
+      "id": "way/32673183"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8440901, 46.4603781], [6.8440124, 46.4603036], [6.8438848, 46.4602007]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/32673184",
+    "properties": {
+      "timestamp": "2020-01-26T22:14:54Z",
+      "version": "3",
+      "changeset": "80110534",
+      "user": "Amadeous",
+      "uid": "4759025",
+      "highway": "footway",
+      "name": "Passage de l'Etoile",
+      "surface": "fine_gravel",
+      "id": "way/32673184"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8438848, 46.4602007], [6.8437829, 46.4601661]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/32673186",
+    "properties": {
+      "timestamp": "2020-01-26T16:21:13Z",
+      "version": "6",
+      "changeset": "80102242",
+      "user": "Amadeous",
+      "uid": "4759025",
+      "highway": "footway",
+      "lit": "yes",
+      "maxspeed": "20",
+      "name": "Ruelle de l'Ancien Port",
+      "official_name": "Ruelle Ancien-Port",
+      "oneway": "yes",
+      "surface": "fine_gravel",
+      "id": "way/32673186"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8448327, 46.4602697], [6.8448012, 46.4602152]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/32673187",
+    "properties": {
+      "timestamp": "2015-09-07T11:36:59Z",
+      "version": "8",
+      "changeset": "33854186",
+      "user": "schnelli",
+      "uid": "225842",
+      "highway": "service",
+      "maxspeed": "20",
+      "name": "Rue Ancienne-Monneresse",
+      "official_name": "Ruelle de Ancienne-Monneresse",
+      "id": "way/32673187"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8449019, 46.4599342], [6.8447069, 46.4600178], [6.8446169, 46.4600585], [6.8445111, 46.4601152], [6.8444367, 46.4601555], [6.844357, 46.4602096], [6.8442322, 46.4603019], [6.844119, 46.460392], [6.8438009, 46.4606301], [6.8437506, 46.4606668], [6.8436879, 46.4606688], [6.8436335, 46.4606506]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/32673190",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:26Z",
+      "version": "8",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "highway": "footway",
+      "name": "Ruelle de l'Ancien Port",
+      "official_name": "Ruelle Ancien-Port",
+      "id": "way/32673190"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8447069, 46.4600178], [6.8447031, 46.4599892], [6.8445285, 46.459784]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/35208160",
+    "properties": {
+      "timestamp": "2014-08-05T22:33:08Z",
+      "version": "3",
+      "changeset": "24565738",
+      "user": "donovaly",
+      "uid": "1730904",
+      "highway": "service",
+      "service": "parking_aisle",
+      "surface": "cobblestone",
+      "id": "way/35208160"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8418688, 46.4607098], [6.8425438, 46.4605373]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/35799698",
+    "properties": {
+      "timestamp": "2020-01-07T09:53:28Z",
+      "version": "9",
+      "changeset": "79287494",
+      "user": "Amadeous",
+      "uid": "4759025",
+      "highway": "pedestrian",
+      "name": "Ruelle de l'Ancien Port",
+      "official_name": "Ruelle Ancien-Port",
+      "source": "Orthophoto Cartoriviera 2012",
+      "surface": "sett",
+      "id": "way/35799698"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8444556, 46.4597046], [6.8443613, 46.4595844]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/35799699",
+    "properties": {
+      "timestamp": "2018-03-18T10:53:28Z",
+      "version": "5",
+      "changeset": "57287166",
+      "user": "em17275",
+      "uid": "5940462",
+      "highway": "pedestrian",
+      "lit": "yes",
+      "name": "Place Scanavin",
+      "surface": "paving_stones",
+      "id": "way/35799699"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8442439, 46.4594529], [6.844592, 46.459293]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/152195354",
+    "properties": {
+      "timestamp": "2019-12-28T16:08:32Z",
+      "version": "8",
+      "changeset": "78958972",
+      "user": "Piagno",
+      "uid": "8542221",
+      "bicycle": "yes",
+      "highway": "footway",
+      "surface": "asphalt",
+      "id": "way/152195354"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8424301, 46.4589966], [6.842249, 46.4590325], [6.8421357, 46.4590204], [6.8420885, 46.458996], [6.8413479, 46.4590821]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/152195358",
+    "properties": {
+      "timestamp": "2019-10-20T21:25:24Z",
+      "version": "17",
+      "changeset": "75965328",
+      "user": "Matthias Frank",
+      "uid": "287306",
+      "busway": "opposite_lane",
+      "highway": "tertiary",
+      "lit": "yes",
+      "maxspeed": "50",
+      "maxspeed:type": "sign",
+      "name": "Rue du Simplon",
+      "oneway": "yes",
+      "oneway:bicycle": "no",
+      "oneway:psv": "no",
+      "surface": "asphalt",
+      "trolley_wire": "yes",
+      "id": "way/152195358"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8454878, 46.4598206], [6.8454455, 46.459857], [6.8453072, 46.4599814], [6.8452472, 46.460025], [6.8449032, 46.4602291], [6.8448327, 46.4602697], [6.844679, 46.4603608], [6.8443433, 46.4605866], [6.8442938, 46.4606183], [6.8440787, 46.4607776], [6.8439375, 46.4608845], [6.8438422, 46.4609622], [6.8434948, 46.4612871], [6.8434676, 46.4613086], [6.8433117, 46.4614317], [6.8432177, 46.4615049], [6.843146, 46.4615608]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/153886066",
+    "properties": {
+      "timestamp": "2019-07-16T20:05:51Z",
+      "version": "4",
+      "changeset": "72321794",
+      "user": "mathieuS",
+      "uid": "40504",
+      "highway": "residential",
+      "lit": "yes",
+      "name": "Rue du Musée",
+      "id": "way/153886066"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8452193, 46.4610397], [6.8451606, 46.4610085], [6.8448357, 46.4608499], [6.8447518, 46.460809], [6.8446703, 46.4607693], [6.84444, 46.460644], [6.8443433, 46.4605866]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/154041933",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:26Z",
+      "version": "2",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "highway": "footway",
+      "maxspeed": "20",
+      "name": "Ruelle de l'Ancien Port",
+      "oneway": "yes",
+      "id": "way/154041933"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.844705, 46.4600562], [6.8447069, 46.4600178]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/154041934",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:26Z",
+      "version": "3",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "highway": "footway",
+      "maxspeed": "20",
+      "name": "Ruelle de l'Ancien Port",
+      "official_name": "Ruelle Ancien-Port",
+      "oneway": "yes",
+      "tunnel": "yes",
+      "id": "way/154041934"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8448012, 46.4602152], [6.844705, 46.4600562]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/154041936",
+    "properties": {
+      "timestamp": "2020-01-26T22:14:36Z",
+      "version": "4",
+      "changeset": "80110555",
+      "user": "Amadeous",
+      "uid": "4759025",
+      "highway": "footway",
+      "lit": "yes",
+      "maxspeed": "20",
+      "surface": "fine_gravel",
+      "tunnel": "yes",
+      "id": "way/154041936"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8442678, 46.4605697], [6.8441568, 46.4604096]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/154041938",
+    "properties": {
+      "timestamp": "2020-01-26T22:14:10Z",
+      "version": "3",
+      "changeset": "80110534",
+      "user": "Amadeous",
+      "uid": "4759025",
+      "highway": "footway",
+      "surface": "fine_gravel",
+      "tunnel": "yes",
+      "id": "way/154041938"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8438365, 46.4606883], [6.8439107, 46.4608277]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/154041939",
+    "properties": {
+      "timestamp": "2020-01-26T22:14:40Z",
+      "version": "3",
+      "changeset": "80110534",
+      "user": "Amadeous",
+      "uid": "4759025",
+      "highway": "footway",
+      "maxspeed": "20",
+      "surface": "fine_gravel",
+      "id": "way/154041939"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8441568, 46.4604096], [6.844119, 46.460392]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/154041941",
+    "properties": {
+      "timestamp": "2020-01-26T22:14:06Z",
+      "version": "3",
+      "changeset": "80110534",
+      "user": "Amadeous",
+      "uid": "4759025",
+      "highway": "footway",
+      "surface": "fine_gravel",
+      "id": "way/154041941"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8439107, 46.4608277], [6.8439375, 46.4608845]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/154041942",
+    "properties": {
+      "timestamp": "2015-09-07T14:47:16Z",
+      "version": "3",
+      "changeset": "33858279",
+      "user": "schnelli",
+      "uid": "225842",
+      "highway": "footway",
+      "tunnel": "yes",
+      "id": "way/154041942"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8436355, 46.4597635], [6.843531, 46.4597645], [6.8433284, 46.4597492]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/173141270",
+    "properties": {
+      "timestamp": "2018-11-21T11:35:50Z",
+      "version": "5",
+      "changeset": "64737878",
+      "user": "SelfishSeahorse",
+      "uid": "3078118",
+      "highway": "service",
+      "lit": "yes",
+      "service": "parking_aisle",
+      "id": "way/173141270"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.842019, 46.4593151], [6.8421905, 46.4597712], [6.8422042, 46.459806], [6.8423557, 46.4601917], [6.8423561, 46.4602862]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/173141271",
+    "properties": {
+      "timestamp": "2018-11-21T11:35:50Z",
+      "version": "4",
+      "changeset": "64737878",
+      "user": "SelfishSeahorse",
+      "uid": "3078118",
+      "highway": "service",
+      "lit": "yes",
+      "service": "parking_aisle",
+      "id": "way/173141271"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8422243, 46.4592762], [6.8423941, 46.4597245], [6.8424086, 46.4597632], [6.8425926, 46.4602544]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/173141272",
+    "properties": {
+      "timestamp": "2018-11-21T11:35:50Z",
+      "version": "4",
+      "changeset": "64737878",
+      "user": "SelfishSeahorse",
+      "uid": "3078118",
+      "highway": "service",
+      "lit": "yes",
+      "service": "parking_aisle",
+      "id": "way/173141272"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8421351, 46.4602335], [6.8421339, 46.4601819], [6.8419945, 46.4598105], [6.8418226, 46.4593523]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/173141273",
+    "properties": {
+      "timestamp": "2018-11-21T11:35:50Z",
+      "version": "6",
+      "changeset": "64737878",
+      "user": "SelfishSeahorse",
+      "uid": "3078118",
+      "highway": "pedestrian",
+      "official_name": "Ruelle des Anciens-Fossés",
+      "id": "way/173141273"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8427795, 46.4596736], [6.8429934, 46.4596948], [6.8429627, 46.4602154]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/173141277",
+    "properties": {
+      "timestamp": "2019-12-28T16:08:32Z",
+      "version": "7",
+      "changeset": "78958972",
+      "user": "Piagno",
+      "uid": "8542221",
+      "highway": "service",
+      "lit": "yes",
+      "service": "parking_aisle",
+      "id": "way/173141277"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8427765, 46.4602346], [6.8425944, 46.4596804], [6.8424697, 46.459289], [6.8425306, 46.4592008], [6.8424975, 46.4590304]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/173160487",
+    "properties": {
+      "timestamp": "2020-01-07T09:53:58Z",
+      "version": "7",
+      "changeset": "79287523",
+      "user": "Amadeous",
+      "uid": "4759025",
+      "bicycle": "yes",
+      "foot": "yes",
+      "highway": "living_street",
+      "lit": "yes",
+      "maxspeed": "20",
+      "motor_vehicle": "no",
+      "name": "Rue des Deux-Marchés",
+      "surface": "asphalt",
+      "id": "way/173160487"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.843809, 46.4600791], [6.8437693, 46.4601137], [6.8437413, 46.4601249], [6.8437078, 46.4601339], [6.8432719, 46.4601939], [6.8431883, 46.460203], [6.8429627, 46.4602154], [6.8429211, 46.4602208], [6.8428828, 46.4602241]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/199045847",
+    "properties": {
+      "timestamp": "2018-03-18T10:57:15Z",
+      "version": "6",
+      "changeset": "57287166",
+      "user": "em17275",
+      "uid": "5940462",
+      "highway": "living_street",
+      "lit": "yes",
+      "name": "Rue du Centre",
+      "surface": "asphalt",
+      "id": "way/199045847"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.845061, 46.4594458], [6.8450317, 46.4594493], [6.8450051, 46.4594591], [6.8449958, 46.4594719], [6.8449946, 46.4594868], [6.8449946, 46.4595004], [6.8450054, 46.4595135]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/199086506",
+    "properties": {
+      "timestamp": "2018-11-21T11:35:50Z",
+      "version": "3",
+      "changeset": "64737878",
+      "user": "SelfishSeahorse",
+      "uid": "3078118",
+      "highway": "service",
+      "lit": "yes",
+      "service": "parking_aisle",
+      "id": "way/199086506"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8429211, 46.4602208], [6.8427795, 46.4596736], [6.8426606, 46.4590058]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/199476978",
+    "properties": {
+      "timestamp": "2018-11-21T11:35:50Z",
+      "version": "8",
+      "changeset": "64737878",
+      "user": "SelfishSeahorse",
+      "uid": "3078118",
+      "bicycle": "yes",
+      "foot": "yes",
+      "highway": "living_street",
+      "lit": "yes",
+      "motor_vehicle": "no",
+      "name": "Rue du Lac",
+      "surface": "paving_stones",
+      "id": "way/199476978"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8442487, 46.4588793], [6.8441329, 46.4588897], [6.8437554, 46.4589008], [6.8436707, 46.4588969], [6.84323, 46.4588935], [6.8431434, 46.4588912], [6.8430023, 46.4589133], [6.8426606, 46.4590058]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/199476979",
+    "properties": {
+      "timestamp": "2019-12-28T16:08:32Z",
+      "version": "6",
+      "changeset": "78958972",
+      "user": "Piagno",
+      "uid": "8542221",
+      "highway": "service",
+      "id": "way/199476979"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8426606, 46.4590058], [6.8424975, 46.4590304], [6.8424172, 46.4590425]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/199477820",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:26Z",
+      "version": "2",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "highway": "pedestrian",
+      "name": "Ruelle du Centre",
+      "tunnel": "yes",
+      "id": "way/199477820"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.844592, 46.459293], [6.8447556, 46.4592261]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/232340126",
+    "properties": {
+      "timestamp": "2018-05-09T11:46:09Z",
+      "version": "7",
+      "changeset": "58817206",
+      "user": "em17275",
+      "uid": "5940462",
+      "highway": "tertiary",
+      "lit": "yes",
+      "name": "Rue de Lausanne",
+      "surface": "asphalt",
+      "id": "way/232340126"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.841935, 46.4602442], [6.8421351, 46.4602335], [6.8422301, 46.4602348], [6.8422631, 46.460235], [6.8422909, 46.4602446], [6.8423233, 46.4602644], [6.8423561, 46.4602862], [6.8423835, 46.4603084], [6.842413, 46.4603436], [6.8424841, 46.4604477], [6.8425438, 46.4605373]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368912867",
+    "properties": {
+      "timestamp": "2015-09-03T11:07:02Z",
+      "version": "1",
+      "changeset": "33770322",
+      "user": "schnelli",
+      "uid": "225842",
+      "barrier": "wall",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368912867"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.84199, 46.4608146], [6.8420086, 46.4608787]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368912868",
+    "properties": {
+      "timestamp": "2015-09-03T11:07:02Z",
+      "version": "1",
+      "changeset": "33770322",
+      "user": "schnelli",
+      "uid": "225842",
+      "barrier": "wall",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368912868"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8420398, 46.4609861], [6.8420185, 46.4609128]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369541507",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:25Z",
+      "version": "1",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "highway": "footway",
+      "name": "Ruelle de l'Ancien Port",
+      "official_name": "Ruelle Ancien-Port",
+      "id": "way/369541507"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8444814, 46.4597322], [6.8444556, 46.4597046]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369541508",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:25Z",
+      "version": "1",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "highway": "footway",
+      "name": "Ruelle de l'Ancien Port",
+      "official_name": "Ruelle Ancien-Port",
+      "tunnel": "yes",
+      "id": "way/369541508"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8445285, 46.459784], [6.8444814, 46.4597322]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369541509",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:25Z",
+      "version": "1",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "highway": "pedestrian",
+      "name": "Ruelle du Centre",
+      "id": "way/369541509"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8447556, 46.4592261], [6.8448142, 46.4592018]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369545235",
+    "properties": {
+      "timestamp": "2015-09-07T14:47:16Z",
+      "version": "1",
+      "changeset": "33858279",
+      "user": "schnelli",
+      "uid": "225842",
+      "highway": "pedestrian",
+      "name": "Ruelle de l'Ancien Port",
+      "official_name": "Ruelle Ancien-Port",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369545235"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8442178, 46.4593429], [6.8440083, 46.4591194]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369545236",
+    "properties": {
+      "timestamp": "2015-09-07T14:47:16Z",
+      "version": "1",
+      "changeset": "33858279",
+      "user": "schnelli",
+      "uid": "225842",
+      "highway": "footway",
+      "id": "way/369545236"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8436799, 46.4597592], [6.8436355, 46.4597635]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369545237",
+    "properties": {
+      "timestamp": "2018-03-18T10:53:21Z",
+      "version": "4",
+      "changeset": "57287166",
+      "user": "em17275",
+      "uid": "5940462",
+      "highway": "pedestrian",
+      "lit": "yes",
+      "name": "Place Scanavin",
+      "surface": "paving_stones",
+      "id": "way/369545237"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8443613, 46.4595844], [6.8442979, 46.459524], [6.8442439, 46.4594529], [6.8442283, 46.4593665], [6.8442178, 46.4593429]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/375206505",
+    "properties": {
+      "timestamp": "2015-10-14T09:25:57Z",
+      "version": "1",
+      "changeset": "34628992",
+      "user": "schnelli",
+      "uid": "225842",
+      "highway": "service",
+      "service": "parking_aisle",
+      "source": "Orthophoto Nyon 2015 / R-Pod @ HEIG-VD",
+      "id": "way/375206505"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8448357, 46.4608499], [6.8446067, 46.4610532]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/432758077",
+    "properties": {
+      "timestamp": "2019-10-20T21:19:55Z",
+      "version": "2",
+      "changeset": "75965220",
+      "user": "Matthias Frank",
+      "uid": "287306",
+      "highway": "service",
+      "name": "Grande Place",
+      "id": "way/432758077"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8423561, 46.4602862], [6.8425926, 46.4602544], [6.84265, 46.4602482], [6.8427765, 46.4602346], [6.8428828, 46.4602241]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/647269141",
+    "properties": {
+      "timestamp": "2018-11-21T11:35:47Z",
+      "version": "1",
+      "changeset": "64737878",
+      "user": "SelfishSeahorse",
+      "uid": "3078118",
+      "highway": "footway",
+      "lit": "yes",
+      "id": "way/647269141"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8422042, 46.459806], [6.8424086, 46.4597632]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/647269142",
+    "properties": {
+      "timestamp": "2018-11-21T11:35:47Z",
+      "version": "1",
+      "changeset": "64737878",
+      "user": "SelfishSeahorse",
+      "uid": "3078118",
+      "highway": "footway",
+      "lit": "yes",
+      "id": "way/647269142"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8423941, 46.4597245], [6.8425944, 46.4596804], [6.8427795, 46.4596736]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/647269143",
+    "properties": {
+      "timestamp": "2018-11-21T11:35:47Z",
+      "version": "1",
+      "changeset": "64737878",
+      "user": "SelfishSeahorse",
+      "uid": "3078118",
+      "highway": "footway",
+      "lit": "yes",
+      "id": "way/647269143"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.841793, 46.459851], [6.8419945, 46.4598105], [6.8421905, 46.4597712]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/704973116",
+    "properties": {
+      "timestamp": "2019-07-16T20:05:51Z",
+      "version": "1",
+      "changeset": "72321794",
+      "user": "mathieuS",
+      "uid": "40504",
+      "highway": "service",
+      "service": "parking_aisle",
+      "id": "way/704973116"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8447518, 46.460809], [6.8448459, 46.4607378], [6.8449082, 46.4607314], [6.8449451, 46.460742], [6.8449795, 46.4607657]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/737131912",
+    "properties": {
+      "timestamp": "2019-10-20T21:19:55Z",
+      "version": "1",
+      "changeset": "75965220",
+      "user": "Matthias Frank",
+      "uid": "287306",
+      "highway": "steps",
+      "incline": "up",
+      "id": "way/737131912"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.842657, 46.4602726], [6.8426635, 46.4602951]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/737131913",
+    "properties": {
+      "timestamp": "2019-10-20T21:19:55Z",
+      "version": "1",
+      "changeset": "75965220",
+      "user": "Matthias Frank",
+      "uid": "287306",
+      "highway": "footway",
+      "id": "way/737131913"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8424841, 46.4604477], [6.8425366, 46.4604362]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/737131915",
+    "properties": {
+      "timestamp": "2019-10-20T21:19:55Z",
+      "version": "1",
+      "changeset": "75965220",
+      "user": "Matthias Frank",
+      "uid": "287306",
+      "highway": "footway",
+      "id": "way/737131915"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.84265, 46.4602482], [6.842657, 46.4602726]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/737131916",
+    "properties": {
+      "timestamp": "2019-10-20T21:19:55Z",
+      "version": "1",
+      "changeset": "75965220",
+      "user": "Matthias Frank",
+      "uid": "287306",
+      "highway": "steps",
+      "incline": "up",
+      "id": "way/737131916"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8428695, 46.4603526], [6.8428228, 46.4603575]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/737131917",
+    "properties": {
+      "timestamp": "2019-10-20T21:19:55Z",
+      "version": "1",
+      "changeset": "75965220",
+      "user": "Matthias Frank",
+      "uid": "287306",
+      "highway": "steps",
+      "incline": "up",
+      "id": "way/737131917"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8425366, 46.4604362], [6.8425788, 46.4604271]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/737131918",
+    "properties": {
+      "timestamp": "2019-10-20T21:19:55Z",
+      "version": "1",
+      "changeset": "75965220",
+      "user": "Matthias Frank",
+      "uid": "287306",
+      "highway": "footway",
+      "id": "way/737131918"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8429028, 46.4603491], [6.8428695, 46.4603526]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/759177119",
+    "properties": {
+      "timestamp": "2019-12-28T16:08:32Z",
+      "version": "1",
+      "changeset": "78958972",
+      "user": "Piagno",
+      "uid": "8542221",
+      "highway": "residential",
+      "lit": "yes",
+      "name": "Grande Place",
+      "surface": "asphalt",
+      "id": "way/759177119"
+    },
+    "geometry": {
+      "type": "LineString",
+      "coordinates": [[6.8414969, 46.4594667], [6.8416042, 46.4593946], [6.8418226, 46.4593523], [6.842019, 46.4593151], [6.8422243, 46.4592762], [6.8423415, 46.4592374], [6.8424097, 46.4590804], [6.8424172, 46.4590425], [6.8424301, 46.4589966]]
+    }
+  }]
+};
+},{}],"batiments.json":[function(require,module,exports) {
+module.exports = {
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "id": "way/35200355",
+    "properties": {
+      "timestamp": "2019-10-20T21:19:55Z",
+      "version": "9",
+      "changeset": "75965220",
+      "user": "Matthias Frank",
+      "uid": "287306",
+      "addr:housename": "La Grenette",
+      "building": "roof",
+      "name": "La Grenette",
+      "id": "way/35200355"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8426225, 46.4605129], [6.8425788, 46.4604271], [6.8425203, 46.4603122], [6.8426635, 46.4602951], [6.8428085, 46.4602777], [6.8428228, 46.4603575], [6.8428438, 46.4604747], [6.8426225, 46.4605129]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/35799697",
+    "properties": {
+      "timestamp": "2018-03-18T10:53:37Z",
+      "version": "18",
+      "changeset": "57287157",
+      "user": "em17275",
+      "uid": "5940462",
+      "area": "yes",
+      "highway": "pedestrian",
+      "lit": "yes",
+      "name": "Place Scanavin",
+      "source": "Orthophoto Cartoriviera 2012",
+      "surface": "paving_stones",
+      "id": "way/35799697"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8437926, 46.4598202], [6.8437019, 46.459869], [6.843635, 46.4597681], [6.8436355, 46.4597635], [6.8436363, 46.4597196], [6.843733, 46.4596948], [6.8438959, 46.4597248], [6.8439879, 46.4594881], [6.8440179, 46.4594661], [6.8440938, 46.4594111], [6.8442054, 46.4593509], [6.8442331, 46.459336], [6.8443105, 46.4593022], [6.8444377, 46.4592507], [6.8445099, 46.4592245], [6.8444395, 46.4591465], [6.8444255, 46.4591298], [6.8444435, 46.4591226], [6.8445273, 46.4592153], [6.8446191, 46.4593226], [6.8445483, 46.4593442], [6.8446183, 46.4594346], [6.8444661, 46.4594997], [6.8443795, 46.4595226], [6.8444145, 46.4595762], [6.844404, 46.4595798], [6.8443613, 46.4595844], [6.8443196, 46.4595888], [6.8440557, 46.4597032], [6.8437926, 46.4598202]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/96984483",
+    "properties": {
+      "timestamp": "2015-10-14T09:25:58Z",
+      "version": "2",
+      "changeset": "34628992",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "5",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Musée",
+      "amenity": "fire_station",
+      "building": "yes",
+      "name": "SDIS Riviera",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/96984483"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8446328, 46.4611002], [6.8448479, 46.4609124], [6.8451392, 46.4610707], [6.844924, 46.4612585], [6.8446328, 46.4611002]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/153886063",
+    "properties": {
+      "timestamp": "2020-01-06T15:37:32Z",
+      "version": "9",
+      "changeset": "79254943",
+      "user": "Amadeous",
+      "uid": "4759025",
+      "access": "yes",
+      "amenity": "parking",
+      "fee": "yes",
+      "lit": "yes",
+      "name": "Place du Marché",
+      "parking": "surface",
+      "id": "way/153886063"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8424217, 46.4602402], [6.8423151, 46.4601949], [6.8421862, 46.4601929], [6.8420352, 46.4601911], [6.8418214, 46.4602378], [6.8416566, 46.4597959], [6.8414569, 46.459321], [6.84235, 46.4591452], [6.8423193, 46.4590844], [6.8426701, 46.4590352], [6.8428972, 46.4590806], [6.8428949, 46.4591561], [6.842773, 46.4593511], [6.8427764, 46.459469], [6.8427943, 46.459637], [6.8428547, 46.4596724], [6.8428916, 46.4599976], [6.8428908, 46.4601859], [6.8424217, 46.4602402]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/154041945",
+    "properties": {
+      "timestamp": "2019-07-16T20:05:51Z",
+      "version": "4",
+      "changeset": "72321794",
+      "user": "mathieuS",
+      "uid": "40504",
+      "landuse": "residential",
+      "source": "Bing",
+      "id": "way/154041945"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8459593, 46.4600191], [6.8455837, 46.460223], [6.845578, 46.4602151], [6.8455168, 46.460254], [6.8457122, 46.4604555], [6.8458314, 46.4605569], [6.845672, 46.4606487], [6.8453827, 46.4608353], [6.8451849, 46.4609637], [6.8449708, 46.4608418], [6.8448593, 46.4607814], [6.8447364, 46.4607424], [6.8446187, 46.460673], [6.8444717, 46.4605864], [6.8446466, 46.4604645], [6.8449229, 46.4602917], [6.8450539, 46.4602151], [6.8451545, 46.4601562], [6.8453989, 46.4600048], [6.8454337, 46.4599565], [6.8454829, 46.4599011], [6.845537, 46.4598582], [6.8456657, 46.4597712], [6.8457346, 46.4597424], [6.8458568, 46.4599045], [6.8459593, 46.4600191]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/154041947",
+    "properties": {
+      "timestamp": "2015-09-08T15:05:05Z",
+      "version": "5",
+      "changeset": "33884845",
+      "user": "schnelli",
+      "uid": "225842",
+      "landuse": "residential",
+      "source": "Bing",
+      "id": "way/154041947"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8462626, 46.4592788], [6.8461151, 46.4593455], [6.8459862, 46.4594292], [6.8459418, 46.4594547], [6.8458927, 46.4594811], [6.8457373, 46.4595572], [6.8456582, 46.4595998], [6.8455891, 46.459636], [6.8454286, 46.4597205], [6.8453689, 46.4596612], [6.8452693, 46.4595637], [6.8451277, 46.4594142], [6.8450449, 46.4593189], [6.8449809, 46.4592611], [6.8448834, 46.4591657], [6.8447922, 46.4590668], [6.8447156, 46.4589787], [6.84494, 46.4589743], [6.845063, 46.4589787], [6.8451502, 46.4589859], [6.8452091, 46.45899], [6.845323, 46.4589979], [6.8454151, 46.4590001], [6.8454886, 46.4590006], [6.8455778, 46.4590011], [6.8456557, 46.4589947], [6.8458638, 46.458972], [6.8460627, 46.4589429], [6.8460816, 46.4589468], [6.8461705, 46.4591319], [6.8462071, 46.4591903], [6.8462626, 46.4592788]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/154041950",
+    "properties": {
+      "timestamp": "2015-10-14T09:25:59Z",
+      "version": "2",
+      "changeset": "34628992",
+      "user": "schnelli",
+      "uid": "225842",
+      "landuse": "residential",
+      "source": "Bing",
+      "id": "way/154041950"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8447262, 46.4608546], [6.8448479, 46.4609124], [6.8451392, 46.4610707], [6.844924, 46.4612585], [6.8449726, 46.4612851], [6.8449094, 46.4613333], [6.8448162, 46.4613754], [6.844532, 46.4615039], [6.8443045, 46.4616165], [6.8440747, 46.4617207], [6.8440179, 46.4617474], [6.8439899, 46.4617605], [6.8438817, 46.4618046], [6.8438358, 46.4618029], [6.8436685, 46.4617153], [6.8436865, 46.4616984], [6.8433595, 46.4615225], [6.843589, 46.4612957], [6.8437185, 46.4611647], [6.8437841, 46.4611026], [6.8438571, 46.461032], [6.8439538, 46.4609512], [6.844117, 46.4608247], [6.8441391, 46.4608162], [6.844372, 46.4606586], [6.8447262, 46.4608546]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/154041972",
+    "properties": {
+      "timestamp": "2015-09-01T07:24:10Z",
+      "version": "4",
+      "changeset": "33719726",
+      "user": "schnelli",
+      "uid": "225842",
+      "landuse": "residential",
+      "source": "Bing",
+      "id": "way/154041972"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8429728, 46.4589754], [6.8431256, 46.4589696], [6.8432028, 46.4589656], [6.8432177, 46.4589134], [6.8434011, 46.4589158], [6.8435117, 46.4589172], [6.8436856, 46.4589195], [6.843749, 46.4589203], [6.8439347, 46.4589227], [6.8441629, 46.4589317], [6.8441312, 46.4589966], [6.844077, 46.4590545], [6.8439681, 46.4590348], [6.8439379, 46.4590876], [6.8438907, 46.4591593], [6.8438531, 46.4592022], [6.8438173, 46.45925], [6.8437737, 46.4593309], [6.8437382, 46.4594108], [6.8437111, 46.4594754], [6.8436695, 46.4595676], [6.8436442, 46.459658], [6.8436363, 46.4597196], [6.8436355, 46.4597635], [6.843635, 46.4597681], [6.8437019, 46.459869], [6.8437132, 46.4598889], [6.8437363, 46.4600878], [6.8436661, 46.4601005], [6.843536, 46.4601239], [6.8434259, 46.4601437], [6.8433283, 46.4601619], [6.843197, 46.4601797], [6.8430307, 46.4601771], [6.8430095, 46.4601598], [6.843011, 46.4601007], [6.8430276, 46.4601009], [6.8430277, 46.46004], [6.8430307, 46.4599726], [6.8430299, 46.4599606], [6.8430368, 46.4598999], [6.8430535, 46.4597027], [6.8430251, 46.4596726], [6.8428953, 46.4596632], [6.842912, 46.4595596], [6.8429234, 46.4594529], [6.8429334, 46.4593836], [6.8429418, 46.4593241], [6.8429496, 46.459269], [6.8429662, 46.4592042], [6.8429728, 46.4589754]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/154041975",
+    "properties": {
+      "timestamp": "2015-09-07T14:47:16Z",
+      "version": "5",
+      "changeset": "33858279",
+      "user": "schnelli",
+      "uid": "225842",
+      "landuse": "residential",
+      "source": "Bing",
+      "id": "way/154041975"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.843733, 46.4596948], [6.843825, 46.4594581], [6.8438818, 46.459325], [6.8439336, 46.4592617], [6.8440376, 46.4591856], [6.8440612, 46.4591341], [6.8441251, 46.4590989], [6.8441898, 46.4590748], [6.8442624, 46.459051], [6.8443297, 46.4590272], [6.8444534, 46.4589794], [6.8444899, 46.4590165], [6.8445387, 46.4589969], [6.84469, 46.4591544], [6.8447836, 46.4592575], [6.8448821, 46.4593793], [6.8449716, 46.4594979], [6.8448955, 46.4595286], [6.8448256, 46.4595551], [6.844571, 46.4596455], [6.8445361, 46.4596593], [6.8444783, 46.4596786], [6.8444086, 46.4596863], [6.8441447, 46.4598006], [6.8438801, 46.4599552], [6.8438206, 46.4599425], [6.8437926, 46.4598202], [6.8440557, 46.4597032], [6.8443196, 46.4595888], [6.8443613, 46.4595844], [6.844404, 46.4595798], [6.8444145, 46.4595762], [6.8443795, 46.4595226], [6.8444661, 46.4594997], [6.8446183, 46.4594346], [6.8445483, 46.4593442], [6.8446191, 46.4593226], [6.8445273, 46.4592153], [6.8444435, 46.4591226], [6.8444255, 46.4591298], [6.8444395, 46.4591465], [6.8445099, 46.4592245], [6.8444377, 46.4592507], [6.8443105, 46.4593022], [6.8442331, 46.459336], [6.8442054, 46.4593509], [6.8440938, 46.4594111], [6.8440179, 46.4594661], [6.8439879, 46.4594881], [6.8438959, 46.4597248], [6.843733, 46.4596948]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/154041977",
+    "properties": {
+      "timestamp": "2015-09-07T11:53:21Z",
+      "version": "5",
+      "changeset": "33854494",
+      "user": "schnelli",
+      "uid": "225842",
+      "landuse": "residential",
+      "source": "Bing",
+      "id": "way/154041977"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8453906, 46.4598026], [6.845317, 46.4598465], [6.8452461, 46.4599217], [6.8452706, 46.4599394], [6.8452075, 46.4599786], [6.8451476, 46.4600177], [6.8448012, 46.4602152], [6.8447383, 46.4602528], [6.8445966, 46.4603414], [6.8444611, 46.4604282], [6.8442678, 46.4605697], [6.8442494, 46.4605836], [6.8440692, 46.4607053], [6.8439107, 46.4608277], [6.8437815, 46.4609337], [6.8436686, 46.4610385], [6.8435645, 46.4611391], [6.8434298, 46.4612657], [6.8432759, 46.4612476], [6.8431307, 46.4612325], [6.8430847, 46.4610697], [6.8429959, 46.4607671], [6.8429953, 46.4606737], [6.8429844, 46.460601], [6.8429844, 46.460584], [6.8429714, 46.4605844], [6.8429578, 46.4605908], [6.8429411, 46.4605917], [6.8429237, 46.4605836], [6.8429225, 46.4605687], [6.8429349, 46.4605567], [6.8429571, 46.4605555], [6.8429565, 46.4605457], [6.8429627, 46.4605397], [6.8429237, 46.460515], [6.8429219, 46.4604455], [6.8429528, 46.4604191], [6.8429856, 46.4604178], [6.8429856, 46.4604038], [6.8429788, 46.4602892], [6.8430227, 46.46025], [6.8431371, 46.4602351], [6.8431854, 46.4602338], [6.8433178, 46.4602309], [6.843319, 46.4602074], [6.8434297, 46.4601942], [6.8435967, 46.4601849], [6.843595, 46.4601945], [6.8437384, 46.4601735], [6.8436693, 46.4604054], [6.8436488, 46.4604409], [6.8436417, 46.4605204], [6.8436218, 46.4605224], [6.8436136, 46.46063], [6.8435798, 46.4606969], [6.8435559, 46.4608145], [6.8434733, 46.4608172], [6.8434742, 46.460848], [6.8434374, 46.4608811], [6.8434362, 46.4609192], [6.8434981, 46.4609517], [6.8435131, 46.4609594], [6.8436214, 46.4608656], [6.8438365, 46.4606883], [6.8439686, 46.4605981], [6.8439849, 46.4606082], [6.8440054, 46.4605927], [6.8439564, 46.4605649], [6.8440605, 46.4604818], [6.8441383, 46.4604245], [6.8441568, 46.4604096], [6.8442931, 46.4603125], [6.844434, 46.4602119], [6.8445888, 46.4601227], [6.8446482, 46.4600877], [6.844705, 46.4600562], [6.8447944, 46.4600054], [6.8450109, 46.4599074], [6.8449911, 46.4598887], [6.8448676, 46.4599199], [6.8448011, 46.4599482], [6.8447183, 46.4599834], [6.8447031, 46.4599892], [6.8446934, 46.4599939], [6.8445137, 46.4600786], [6.8444613, 46.46011], [6.8443827, 46.4601576], [6.8443314, 46.4601915], [6.8442702, 46.4602319], [6.844213, 46.460282], [6.8441631, 46.4603254], [6.8440901, 46.4603781], [6.8440109, 46.4604387], [6.8439663, 46.4604718], [6.8439121, 46.4605158], [6.8438028, 46.4605935], [6.8437521, 46.460628], [6.8436842, 46.4605926], [6.8437442, 46.4603893], [6.8437713, 46.4603194], [6.8437966, 46.4602622], [6.8438203, 46.4602194], [6.8438727, 46.4601172], [6.8438894, 46.460079], [6.8439186, 46.460041], [6.8439536, 46.4600054], [6.8440087, 46.4599723], [6.844049, 46.4599506], [6.8441216, 46.4599126], [6.8442151, 46.4598626], [6.8442755, 46.4598313], [6.8443358, 46.4598], [6.8443979, 46.459771], [6.8444751, 46.4597344], [6.8444814, 46.4597322], [6.8445661, 46.4597], [6.8446363, 46.4596735], [6.8448213, 46.4596191], [6.8449432, 46.4595865], [6.8450779, 46.4595443], [6.8451772, 46.459645], [6.8452007, 46.4596343], [6.8453906, 46.4598026]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/154044811",
+    "properties": {
+      "timestamp": "2015-09-03T11:07:09Z",
+      "version": "2",
+      "changeset": "33770322",
+      "user": "schnelli",
+      "uid": "225842",
+      "landuse": "residential",
+      "source": "Bing",
+      "id": "way/154044811"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8428959, 46.4616685], [6.842886, 46.4617134], [6.8428541, 46.4617566], [6.8427915, 46.4618094], [6.8426992, 46.4618873], [6.8426009, 46.4619702], [6.8425391, 46.4620223], [6.8424772, 46.4620816], [6.8423846, 46.4620703], [6.8423534, 46.4619724], [6.8423039, 46.4618175], [6.8422632, 46.46169], [6.8422185, 46.46155], [6.8421154, 46.4612271], [6.8420768, 46.4610977], [6.8420537, 46.4610276], [6.8420398, 46.4609861], [6.8420185, 46.4609128], [6.8420086, 46.4608787], [6.84199, 46.4608146], [6.8419633, 46.4607204], [6.8421287, 46.4606773], [6.8424839, 46.4605902], [6.8425614, 46.4607327], [6.8426405, 46.4608713], [6.8426986, 46.4609319], [6.8427503, 46.4609911], [6.8428089, 46.4610582], [6.8427644, 46.4610764], [6.8428992, 46.461413], [6.8428972, 46.461598], [6.8428959, 46.4616685]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/197758344",
+    "properties": {
+      "timestamp": "2015-09-03T05:45:00Z",
+      "version": "2",
+      "changeset": "33765726",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:postcode": "1800",
+      "addr:street": "Grande Place",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/197758344"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8420559, 46.4604786], [6.8420227, 46.4604161], [6.8421664, 46.4603798], [6.8421997, 46.4604423], [6.8420559, 46.4604786]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/197759214",
+    "properties": {
+      "timestamp": "2018-11-21T11:35:49Z",
+      "version": "4",
+      "changeset": "64737878",
+      "user": "SelfishSeahorse",
+      "uid": "3078118",
+      "name": "Bois d'Amour",
+      "place": "square",
+      "id": "way/197759214"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8419055, 46.4604224], [6.8419167, 46.4603725], [6.8419501, 46.4603222], [6.8420018, 46.4602921], [6.8420714, 46.4602719], [6.8421748, 46.4602679], [6.8422463, 46.4602909], [6.8423218, 46.4603303], [6.8423929, 46.4604136], [6.8424839, 46.4605902], [6.8421287, 46.4606773], [6.8419633, 46.4607204], [6.8419529, 46.4606698], [6.8419282, 46.4605761], [6.8419055, 46.4604224]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/197759486",
+    "properties": {
+      "timestamp": "2015-08-31T13:16:03Z",
+      "version": "3",
+      "changeset": "33703588",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "1",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle des Anciens-Fossés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/197759486"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8429728, 46.4589754], [6.8431256, 46.4589696], [6.8431219, 46.4592063], [6.8429662, 46.4592042], [6.8429728, 46.4589754]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/197759489",
+    "properties": {
+      "timestamp": "2015-09-01T07:24:09Z",
+      "version": "3",
+      "changeset": "33719726",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "36",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Lac",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/197759489"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8431996, 46.4589791], [6.8433794, 46.4589906], [6.8433982, 46.4589918], [6.8433951, 46.4590167], [6.8433904, 46.459055], [6.8433839, 46.4591069], [6.8431786, 46.4590898], [6.8431996, 46.4589791]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/198435806",
+    "properties": {
+      "timestamp": "2015-09-07T06:36:59Z",
+      "version": "2",
+      "changeset": "33847932",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "33",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Conseil",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/198435806"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8433803, 46.4608205], [6.8434015, 46.4606895], [6.8435798, 46.4606969], [6.8435559, 46.4608145], [6.8434733, 46.4608172], [6.8433803, 46.4608205]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/198435807",
+    "properties": {
+      "timestamp": "2015-09-07T06:37:00Z",
+      "version": "2",
+      "changeset": "33847932",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "8",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Théâtre",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/198435807"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.843284, 46.4610736], [6.8430847, 46.4610697], [6.8429959, 46.4607671], [6.8431677, 46.460773], [6.8431702, 46.4607802], [6.8431768, 46.4608082], [6.8433202, 46.4608233], [6.8433803, 46.4608205], [6.8434733, 46.4608172], [6.8434742, 46.460848], [6.8434374, 46.4608811], [6.8433272, 46.4608727], [6.843284, 46.4610736]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/198435812",
+    "properties": {
+      "timestamp": "2015-09-07T06:36:59Z",
+      "version": "3",
+      "changeset": "33847932",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "6",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Théâtre",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/198435812"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8433243, 46.4607902], [6.8431702, 46.4607802], [6.8431677, 46.460773], [6.8429959, 46.4607671], [6.8429953, 46.4606737], [6.8431579, 46.4606792], [6.8433324, 46.4606921], [6.8433243, 46.4607902]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/199114979",
+    "properties": {
+      "timestamp": "2015-10-15T05:36:45Z",
+      "version": "2",
+      "changeset": "34646405",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "30",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Simplon",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/199114979"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8449229, 46.4602917], [6.845136, 46.460495], [6.8450807, 46.4605334], [6.845043, 46.4604984], [6.8450102, 46.4605176], [6.8450416, 46.4605506], [6.8448791, 46.4606588], [6.8447757, 46.4605725], [6.8447554, 46.4605555], [6.8446466, 46.4604645], [6.8449229, 46.4602917]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/199114980",
+    "properties": {
+      "timestamp": "2019-07-16T20:05:51Z",
+      "version": "3",
+      "changeset": "72321794",
+      "user": "mathieuS",
+      "uid": "40504",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "28",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Simplon",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/199114980"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8449229, 46.4602917], [6.8450539, 46.4602151], [6.8451545, 46.4601562], [6.845266, 46.4602609], [6.8452988, 46.4602917], [6.8452737, 46.4603035], [6.845356, 46.4603767], [6.8452414, 46.4604329], [6.8452087, 46.4604024], [6.8451529, 46.4604352], [6.8451808, 46.4604691], [6.845136, 46.460495], [6.8449229, 46.4602917]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/199114982",
+    "properties": {
+      "timestamp": "2015-10-15T05:36:45Z",
+      "version": "2",
+      "changeset": "34646405",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "34",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Simplon",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/199114982"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8446466, 46.4604645], [6.8447554, 46.4605555], [6.8446848, 46.4606], [6.8444717, 46.4605864], [6.8446466, 46.4604645]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/293087972",
+    "properties": {
+      "timestamp": "2015-08-31T13:16:03Z",
+      "version": "3",
+      "changeset": "33703588",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "3",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle des Anciens-Fossés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/293087972"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8431219, 46.4592063], [6.8431162, 46.4592771], [6.8429496, 46.459269], [6.8429662, 46.4592042], [6.8431219, 46.4592063]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/293087973",
+    "properties": {
+      "timestamp": "2015-08-31T13:26:44Z",
+      "version": "3",
+      "changeset": "33703803",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "7",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle des Anciens-Fossés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/293087973"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8429418, 46.4593241], [6.8431088, 46.4593314], [6.8430955, 46.4593946], [6.8429334, 46.4593836], [6.8429418, 46.4593241]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/293087974",
+    "properties": {
+      "timestamp": "2019-03-24T08:18:18Z",
+      "version": "4",
+      "changeset": "68463737",
+      "user": "b-jazz-bot",
+      "uid": "9451067",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "9",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle des Anciens-Fossés",
+      "amenity": "social_facility",
+      "building": "yes",
+      "name": "Secrétariat Syndicat Unia",
+      "operator": "Unia",
+      "phone": "+41 (0) 848 606 606",
+      "source": "Orthophoto Cartoriviera 2012",
+      "website": "https://www.unia.ch/index.php?id=1670",
+      "id": "way/293087974"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8429334, 46.4593836], [6.8430955, 46.4593946], [6.8430752, 46.4594587], [6.8429234, 46.4594529], [6.8429334, 46.4593836]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368462105",
+    "properties": {
+      "timestamp": "2015-08-31T13:16:00Z",
+      "version": "1",
+      "changeset": "33703588",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "10",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle des Anciens-Fossés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368462105"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8430606, 46.4596832], [6.8430981, 46.4595679], [6.8431139, 46.4595692], [6.8432707, 46.4595823], [6.8432925, 46.4595841], [6.8432635, 46.4597047], [6.8430606, 46.4596832]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368462106",
+    "properties": {
+      "timestamp": "2015-08-31T13:16:00Z",
+      "version": "1",
+      "changeset": "33703588",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "11",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle des Anciens-Fossés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368462106"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.842912, 46.4595596], [6.8429234, 46.4594529], [6.8430752, 46.4594587], [6.8430509, 46.4595675], [6.842912, 46.4595596]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368462107",
+    "properties": {
+      "timestamp": "2015-08-31T13:16:00Z",
+      "version": "1",
+      "changeset": "33703588",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "13",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle des Anciens-Fossés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368462107"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8428953, 46.4596632], [6.842912, 46.4595596], [6.8430509, 46.4595675], [6.8430251, 46.4596726], [6.8428953, 46.4596632]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368462108",
+    "properties": {
+      "timestamp": "2015-08-31T13:16:00Z",
+      "version": "1",
+      "changeset": "33703588",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "2",
+      "addr:postcode": "1800",
+      "addr:street": "Grande Place",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368462108"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8430368, 46.4598999], [6.8430535, 46.4597027], [6.8432144, 46.4597148], [6.8431939, 46.4599008], [6.8430368, 46.4598999]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368462109",
+    "properties": {
+      "timestamp": "2015-08-31T13:16:00Z",
+      "version": "1",
+      "changeset": "33703588",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "21",
+      "addr:postcode": "1800",
+      "addr:street": "Rue des Deux-Marchés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368462109"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8435225, 46.4600036], [6.843575, 46.4600019], [6.8435773, 46.4600113], [6.8436464, 46.4600097], [6.8436661, 46.4601005], [6.843536, 46.4601239], [6.8435225, 46.4600036]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368462110",
+    "properties": {
+      "timestamp": "2015-08-31T13:16:00Z",
+      "version": "1",
+      "changeset": "33703588",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "23",
+      "addr:postcode": "1800",
+      "addr:street": "Rue des Deux-Marchés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368462110"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8434649, 46.4599945], [6.8435211, 46.4599914], [6.8435225, 46.4600036], [6.843536, 46.4601239], [6.8434259, 46.4601437], [6.8434232, 46.4599966], [6.8434649, 46.4599945]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368462111",
+    "properties": {
+      "timestamp": "2015-08-31T13:16:01Z",
+      "version": "1",
+      "changeset": "33703588",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "23",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Conseil",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368462111"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8437132, 46.4598889], [6.8434634, 46.4598936], [6.8433207, 46.4598936], [6.8433275, 46.4597556], [6.843531, 46.4597697], [6.843635, 46.4597681], [6.8437019, 46.459869], [6.8437132, 46.4598889]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368462112",
+    "properties": {
+      "timestamp": "2015-08-31T13:16:01Z",
+      "version": "1",
+      "changeset": "33703588",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "25",
+      "addr:postcode": "1800",
+      "addr:street": "Rue des Deux-Marchés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368462112"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8433283, 46.4601619], [6.8433237, 46.4601153], [6.8433169, 46.4600568], [6.8433207, 46.4598936], [6.8434634, 46.4598936], [6.843464, 46.4599355], [6.8434649, 46.4599945], [6.8434232, 46.4599966], [6.8434259, 46.4601437], [6.8433283, 46.4601619]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368462114",
+    "properties": {
+      "timestamp": "2020-01-05T12:04:15Z",
+      "version": "4",
+      "changeset": "79210880",
+      "user": "Amadeous",
+      "uid": "4759025",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "25",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Conseil",
+      "building": "apartments",
+      "building:levels": "4",
+      "roof:levels": "1",
+      "roof:shape": "half-hipped",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368462114"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8434634, 46.4598936], [6.8437132, 46.4598889], [6.8437363, 46.4600878], [6.8436661, 46.4601005], [6.8436464, 46.4600097], [6.8435773, 46.4600113], [6.843575, 46.4600019], [6.8435705, 46.4599334], [6.843464, 46.4599355], [6.8434634, 46.4598936]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368462115",
+    "properties": {
+      "timestamp": "2015-08-31T13:16:02Z",
+      "version": "1",
+      "changeset": "33703588",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "27",
+      "addr:postcode": "1800",
+      "addr:street": "Rue des Deux-Marchés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368462115"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8430095, 46.4601598], [6.843011, 46.4601007], [6.8430276, 46.4601009], [6.8431021, 46.4601018], [6.8431028, 46.4600871], [6.843238, 46.4600814], [6.8432888, 46.4600793], [6.8433131, 46.4600997], [6.8433131, 46.4601143], [6.8433237, 46.4601153], [6.8433283, 46.4601619], [6.843197, 46.4601797], [6.8430307, 46.4601771], [6.8430095, 46.4601598]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368462116",
+    "properties": {
+      "timestamp": "2015-08-31T13:16:02Z",
+      "version": "1",
+      "changeset": "33703588",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "4",
+      "addr:postcode": "1800",
+      "addr:street": "Grande Place",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368462116"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8430276, 46.4601009], [6.8430277, 46.46004], [6.843033, 46.4600306], [6.8430398, 46.460027], [6.8430512, 46.4600228], [6.8432402, 46.4600259], [6.843238, 46.4600814], [6.8431028, 46.4600871], [6.8431021, 46.4601018], [6.8430276, 46.4601009]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368462117",
+    "properties": {
+      "timestamp": "2015-08-31T13:16:02Z",
+      "version": "1",
+      "changeset": "33703588",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "5",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle des Anciens-Fossés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368462117"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8429496, 46.459269], [6.8431162, 46.4592771], [6.8431088, 46.4593314], [6.8429418, 46.4593241], [6.8429496, 46.459269]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368462118",
+    "properties": {
+      "timestamp": "2015-08-31T13:16:02Z",
+      "version": "1",
+      "changeset": "33703588",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "6",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle des Anciens-Fossés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368462118"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8431238, 46.4594246], [6.8431444, 46.4593274], [6.8433401, 46.459347], [6.843337, 46.4593615], [6.843396, 46.4593674], [6.8433812, 46.4594375], [6.8433202, 46.4594313], [6.8433175, 46.4594441], [6.8431238, 46.4594246]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368462119",
+    "properties": {
+      "timestamp": "2015-08-31T13:16:02Z",
+      "version": "1",
+      "changeset": "33703588",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "8",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle des Anciens-Fossés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368462119"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8431139, 46.4595692], [6.8431443, 46.4594451], [6.8433043, 46.4594636], [6.8432707, 46.4595823], [6.8431139, 46.4595692]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368462120",
+    "properties": {
+      "timestamp": "2015-08-31T13:16:02Z",
+      "version": "1",
+      "changeset": "33703588",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:postcode": "1800",
+      "addr:street": "Grande Place",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368462120"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8432106, 46.4599904], [6.8430558, 46.4599893], [6.8430444, 46.4599867], [6.8430383, 46.459982], [6.8430307, 46.4599726], [6.8430299, 46.4599606], [6.8430368, 46.4598999], [6.8431939, 46.4599008], [6.8432144, 46.4599009], [6.8432152, 46.4599328], [6.8432228, 46.4599391], [6.8432235, 46.4599475], [6.843225, 46.4599569], [6.8432235, 46.4599647], [6.8432182, 46.4599715], [6.8432129, 46.4599794], [6.8432106, 46.4599904]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368463341",
+    "properties": {
+      "timestamp": "2015-08-31T13:26:44Z",
+      "version": "1",
+      "changeset": "33703803",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "4",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle des Anciens-Fossés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368463341"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8431786, 46.4590898], [6.8433839, 46.4591069], [6.8434696, 46.4591147], [6.8434612, 46.4591529], [6.8433808, 46.4591513], [6.8433724, 46.4591884], [6.8432667, 46.4591772], [6.8431705, 46.459167], [6.8431786, 46.4590898]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368463342",
+    "properties": {
+      "timestamp": "2015-08-31T13:26:44Z",
+      "version": "1",
+      "changeset": "33703803",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle des Anciens-Fossés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368463342"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8432667, 46.4591772], [6.8433724, 46.4591884], [6.8434005, 46.4591916], [6.8433944, 46.4592318], [6.8432608, 46.4592224], [6.8432667, 46.4591772]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368577213",
+    "properties": {
+      "timestamp": "2015-09-01T07:24:06Z",
+      "version": "1",
+      "changeset": "33719726",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "1",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Conseil",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368577213"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8439755, 46.4589767], [6.8440635, 46.4589789], [6.8441312, 46.4589966], [6.844077, 46.4590545], [6.8439681, 46.4590348], [6.8439755, 46.4589767]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368577215",
+    "properties": {
+      "timestamp": "2015-09-01T07:24:07Z",
+      "version": "1",
+      "changeset": "33719726",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "11",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Conseil",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368577215"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8438173, 46.45925], [6.8437737, 46.4593309], [6.8434881, 46.459271], [6.8434419, 46.4592614], [6.8434505, 46.4591978], [6.843501, 46.459203], [6.8438173, 46.45925]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368577217",
+    "properties": {
+      "timestamp": "2015-09-01T07:24:07Z",
+      "version": "1",
+      "changeset": "33719726",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "13",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Conseil",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368577217"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8437737, 46.4593309], [6.8437382, 46.4594108], [6.8434677, 46.4593553], [6.8434366, 46.4593524], [6.843443, 46.4592991], [6.8434816, 46.4593028], [6.8434881, 46.459271], [6.8437737, 46.4593309]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368577218",
+    "properties": {
+      "timestamp": "2015-09-01T07:24:07Z",
+      "version": "1",
+      "changeset": "33719726",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "15",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Conseil",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368577218"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8437382, 46.4594108], [6.8437111, 46.4594754], [6.8434516, 46.4594241], [6.8434677, 46.4593553], [6.8437382, 46.4594108]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368577219",
+    "properties": {
+      "timestamp": "2015-09-01T07:24:07Z",
+      "version": "1",
+      "changeset": "33719726",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "17",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Conseil",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368577219"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8437111, 46.4594754], [6.8436695, 46.4595676], [6.8434176, 46.4595197], [6.8434516, 46.4594241], [6.8437111, 46.4594754]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368577222",
+    "properties": {
+      "timestamp": "2015-09-01T07:24:07Z",
+      "version": "1",
+      "changeset": "33719726",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "19",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Conseil",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368577222"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8436442, 46.459658], [6.8433373, 46.4596284], [6.8433721, 46.4595373], [6.8433947, 46.4595387], [6.8434011, 46.4595165], [6.8434176, 46.4595197], [6.8436695, 46.4595676], [6.8436442, 46.459658]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368577224",
+    "properties": {
+      "timestamp": "2015-09-01T07:24:07Z",
+      "version": "1",
+      "changeset": "33719726",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "21",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Conseil",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368577224"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8436442, 46.459658], [6.8436363, 46.4597196], [6.8436355, 46.4597635], [6.843635, 46.4597681], [6.843531, 46.4597697], [6.8433275, 46.4597556], [6.8433324, 46.4597244], [6.8433117, 46.4597229], [6.8433373, 46.4596284], [6.8436442, 46.459658]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368577226",
+    "properties": {
+      "timestamp": "2015-09-01T07:24:08Z",
+      "version": "1",
+      "changeset": "33719726",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "28b",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Lac",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368577226"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8439347, 46.4589227], [6.8439312, 46.4589741], [6.8438842, 46.4589715], [6.8438853, 46.4590196], [6.8438707, 46.4590798], [6.8437339, 46.4590639], [6.8437543, 46.4590048], [6.843749, 46.4589203], [6.8439347, 46.4589227]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368577227",
+    "properties": {
+      "timestamp": "2015-09-01T07:24:08Z",
+      "version": "1",
+      "changeset": "33719726",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "3",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Conseil",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368577227"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8438707, 46.4590798], [6.8438853, 46.4590196], [6.8438842, 46.4589715], [6.8439312, 46.4589741], [6.8439755, 46.4589767], [6.8439681, 46.4590348], [6.8439379, 46.4590876], [6.8438707, 46.4590798]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368577228",
+    "properties": {
+      "timestamp": "2015-09-01T07:24:08Z",
+      "version": "1",
+      "changeset": "33719726",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "30",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Lac",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368577228"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8436856, 46.4589195], [6.843749, 46.4589203], [6.8437543, 46.4590048], [6.8437339, 46.4590639], [6.84372, 46.4591261], [6.8436749, 46.4591231], [6.8436856, 46.4589195]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368577229",
+    "properties": {
+      "timestamp": "2015-09-01T07:24:08Z",
+      "version": "1",
+      "changeset": "33719726",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "32",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Lac",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368577229"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8436856, 46.4589195], [6.8436749, 46.4591231], [6.8434696, 46.4591147], [6.8433839, 46.4591069], [6.8433904, 46.459055], [6.8435106, 46.4590625], [6.8435106, 46.4590218], [6.8435117, 46.4589172], [6.8436856, 46.4589195]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368577230",
+    "properties": {
+      "timestamp": "2015-09-01T07:24:08Z",
+      "version": "1",
+      "changeset": "33719726",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "34",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Lac",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368577230"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8435117, 46.4589172], [6.8435106, 46.4590218], [6.8433951, 46.4590167], [6.8433982, 46.4589918], [6.8433794, 46.4589906], [6.8433829, 46.4589493], [6.8434, 46.45895], [6.8434011, 46.4589158], [6.8435117, 46.4589172]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368577231",
+    "properties": {
+      "timestamp": "2015-09-01T07:24:09Z",
+      "version": "1",
+      "changeset": "33719726",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "5",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Conseil",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368577231"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8439379, 46.4590876], [6.8438907, 46.4591593], [6.84372, 46.4591261], [6.8437339, 46.4590639], [6.8438707, 46.4590798], [6.8439379, 46.4590876]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368577232",
+    "properties": {
+      "timestamp": "2015-09-01T07:24:09Z",
+      "version": "1",
+      "changeset": "33719726",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "7",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Conseil",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368577232"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8438907, 46.4591593], [6.8438531, 46.4592022], [6.8437189, 46.4591741], [6.8436384, 46.4591697], [6.8434977, 46.4591556], [6.8434612, 46.4591529], [6.8434696, 46.4591147], [6.8436749, 46.4591231], [6.84372, 46.4591261], [6.8438907, 46.4591593]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368577233",
+    "properties": {
+      "timestamp": "2015-09-01T07:24:09Z",
+      "version": "1",
+      "changeset": "33719726",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "9",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Conseil",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368577233"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8438531, 46.4592022], [6.8438173, 46.45925], [6.843501, 46.459203], [6.8434977, 46.4591556], [6.8436384, 46.4591697], [6.8437189, 46.4591741], [6.8438531, 46.4592022]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368912869",
+    "properties": {
+      "timestamp": "2015-09-03T11:07:02Z",
+      "version": "1",
+      "changeset": "33770322",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "1",
+      "addr:postcode": "1800",
+      "addr:street": "Rue de Lausanne",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368912869"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8426405, 46.4608713], [6.842335, 46.4609541], [6.842302, 46.460963], [6.8422833, 46.4609301], [6.8422229, 46.4608245], [6.8425614, 46.4607327], [6.8426405, 46.4608713]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368912870",
+    "properties": {
+      "timestamp": "2015-09-03T11:07:03Z",
+      "version": "1",
+      "changeset": "33770322",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "1",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Théâtre",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368912870"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8429122, 46.4607855], [6.8427816, 46.4608225], [6.8426933, 46.4606483], [6.8428474, 46.4606182], [6.8429122, 46.4607855]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368912879",
+    "properties": {
+      "timestamp": "2015-09-03T11:07:04Z",
+      "version": "1",
+      "changeset": "33770322",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "27",
+      "addr:postcode": "1800",
+      "addr:street": "Grande Place",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368912879"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.84199, 46.4608146], [6.8419633, 46.4607204], [6.8421287, 46.4606773], [6.8421665, 46.460746], [6.8421773, 46.4607657], [6.8421732, 46.4607668], [6.84199, 46.4608146]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368912881",
+    "properties": {
+      "timestamp": "2015-09-03T11:07:04Z",
+      "version": "1",
+      "changeset": "33770322",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "3",
+      "addr:postcode": "1800",
+      "addr:street": "Rue de Lausanne",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368912881"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8426405, 46.4608713], [6.8426986, 46.4609319], [6.8424092, 46.4610158], [6.8423725, 46.4609689], [6.8423503, 46.4609761], [6.842335, 46.4609541], [6.8426405, 46.4608713]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368912882",
+    "properties": {
+      "timestamp": "2015-09-03T11:07:04Z",
+      "version": "1",
+      "changeset": "33770322",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "3",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Théâtre",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368912882"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8429353, 46.4608492], [6.8428233, 46.4608856], [6.8427816, 46.4608225], [6.8429122, 46.4607855], [6.8429353, 46.4608492]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368912885",
+    "properties": {
+      "timestamp": "2015-09-03T11:07:05Z",
+      "version": "1",
+      "changeset": "33770322",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "4",
+      "addr:postcode": "1800",
+      "addr:street": "Avenue Paul-Ceresole",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368912885"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8420537, 46.4610276], [6.8420398, 46.4609861], [6.8422463, 46.4609325], [6.84225, 46.4609402], [6.8422833, 46.4609301], [6.842302, 46.460963], [6.8421199, 46.4610104], [6.8420537, 46.4610276]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368912886",
+    "properties": {
+      "timestamp": "2015-09-03T11:07:05Z",
+      "version": "1",
+      "changeset": "33770322",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "5",
+      "addr:postcode": "1800",
+      "addr:street": "Rue de Lausanne",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368912886"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8426986, 46.4609319], [6.8427503, 46.4609911], [6.8423817, 46.4610915], [6.8423699, 46.461064], [6.842417, 46.4610528], [6.8423954, 46.4610203], [6.8424092, 46.4610158], [6.8426986, 46.4609319]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368912887",
+    "properties": {
+      "timestamp": "2015-09-03T11:07:05Z",
+      "version": "1",
+      "changeset": "33770322",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "5",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Théâtre",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368912887"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8429659, 46.4609315], [6.8428668, 46.4609577], [6.8428233, 46.4608856], [6.8429353, 46.4608492], [6.8429659, 46.4609315]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368912893",
+    "properties": {
+      "timestamp": "2015-09-03T11:07:05Z",
+      "version": "1",
+      "changeset": "33770322",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "7",
+      "addr:postcode": "1800",
+      "addr:street": "Rue de Lausanne",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368912893"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8427503, 46.4609911], [6.8428089, 46.4610582], [6.8427644, 46.4610764], [6.8425807, 46.4611225], [6.8425126, 46.4611402], [6.8423804, 46.4611705], [6.842345, 46.4611033], [6.8423817, 46.4610915], [6.8427503, 46.4609911]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368912896",
+    "properties": {
+      "timestamp": "2015-09-03T11:07:05Z",
+      "version": "1",
+      "changeset": "33770322",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "7",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Théâtre",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368912896"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8429927, 46.4610106], [6.8429094, 46.4610297], [6.8428668, 46.4609577], [6.8429659, 46.4609315], [6.8429927, 46.4610106]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/368912919",
+    "properties": {
+      "timestamp": "2015-09-03T11:07:06Z",
+      "version": "1",
+      "changeset": "33770322",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:postcode": "1800",
+      "addr:street": "Grande Place",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/368912919"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8421732, 46.4607668], [6.8421773, 46.4607657], [6.8421665, 46.460746], [6.8422181, 46.4607325], [6.8422561, 46.4608015], [6.8422002, 46.4608161], [6.8421732, 46.4607668]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369458920",
+    "properties": {
+      "timestamp": "2015-09-07T06:36:58Z",
+      "version": "1",
+      "changeset": "33847932",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "2",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Théâtre",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369458920"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8429856, 46.4604038], [6.8429788, 46.4602892], [6.8430227, 46.46025], [6.8431371, 46.4602351], [6.8431384, 46.4603988], [6.8429856, 46.4604038]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369458922",
+    "properties": {
+      "timestamp": "2015-09-07T06:36:58Z",
+      "version": "1",
+      "changeset": "33847932",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "27",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Conseil",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369458922"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.843595, 46.4601945], [6.8437384, 46.4601735], [6.8436693, 46.4604054], [6.8436189, 46.4604017], [6.8435485, 46.4603988], [6.8435521, 46.4603416], [6.843553, 46.4603169], [6.843581, 46.4603157], [6.843595, 46.4601945]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369458923",
+    "properties": {
+      "timestamp": "2015-09-07T06:36:58Z",
+      "version": "1",
+      "changeset": "33847932",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "30",
+      "addr:postcode": "1800",
+      "addr:street": "Rue des Deux-Marchés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369458923"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8434297, 46.4601942], [6.8435967, 46.4601849], [6.843581, 46.4603157], [6.843553, 46.4603169], [6.8435521, 46.4603416], [6.8434705, 46.4603377], [6.8434334, 46.460336], [6.8434297, 46.4601942]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369458924",
+    "properties": {
+      "timestamp": "2015-09-07T06:36:58Z",
+      "version": "1",
+      "changeset": "33847932",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "31",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Conseil",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369458924"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8433641, 46.4603914], [6.8434733, 46.4603958], [6.8435485, 46.4603988], [6.8436189, 46.4604017], [6.8436103, 46.4605039], [6.8435633, 46.460503], [6.8435546, 46.460624], [6.8433484, 46.4606181], [6.8433641, 46.4603914]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369458926",
+    "properties": {
+      "timestamp": "2015-09-07T06:36:59Z",
+      "version": "1",
+      "changeset": "33847932",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "32",
+      "addr:postcode": "1800",
+      "addr:street": "Rue des Deux-Marchés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369458926"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8433178, 46.4602309], [6.843319, 46.4602074], [6.8434297, 46.4601942], [6.8434334, 46.460336], [6.8434705, 46.4603377], [6.8434733, 46.4603958], [6.8433641, 46.4603914], [6.8433637, 46.460368], [6.8434006, 46.4603671], [6.8433994, 46.4603318], [6.843363, 46.4603318], [6.843361, 46.46023], [6.8433178, 46.4602309]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369458927",
+    "properties": {
+      "timestamp": "2015-09-07T06:36:59Z",
+      "version": "1",
+      "changeset": "33847932",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "34",
+      "addr:postcode": "1800",
+      "addr:street": "Rue des Deux-Marchés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369458927"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8431904, 46.4603971], [6.8431854, 46.4602338], [6.8433178, 46.4602309], [6.843361, 46.46023], [6.843363, 46.4603318], [6.8433637, 46.460368], [6.8433641, 46.4603914], [6.8431904, 46.4603971]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369458928",
+    "properties": {
+      "timestamp": "2015-09-07T06:36:59Z",
+      "version": "1",
+      "changeset": "33847932",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "4",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Théâtre",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369458928"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8433484, 46.4606181], [6.8433474, 46.4606326], [6.8430165, 46.4606223], [6.8429844, 46.460601], [6.8429844, 46.460584], [6.8429714, 46.4605844], [6.8429578, 46.4605908], [6.8429411, 46.4605917], [6.8429237, 46.4605836], [6.8429225, 46.4605687], [6.8429349, 46.4605567], [6.8429571, 46.4605555], [6.8429565, 46.4605457], [6.8429627, 46.4605397], [6.8429237, 46.460515], [6.8429219, 46.4604455], [6.8429528, 46.4604191], [6.8429856, 46.4604178], [6.8429856, 46.4604038], [6.8431384, 46.4603988], [6.8431904, 46.4603971], [6.8433641, 46.4603914], [6.8433484, 46.4606181]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369458930",
+    "properties": {
+      "timestamp": "2015-09-07T06:36:59Z",
+      "version": "1",
+      "changeset": "33847932",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Conseil",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369458930"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8434176, 46.4606858], [6.8434188, 46.4606662], [6.8434924, 46.4606684], [6.8434912, 46.460688], [6.8434176, 46.4606858]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369458931",
+    "properties": {
+      "timestamp": "2015-09-07T06:36:59Z",
+      "version": "1",
+      "changeset": "33847932",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:postcode": "1800",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369458931"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8434015, 46.4606895], [6.8433803, 46.4608205], [6.8433202, 46.4608233], [6.8431768, 46.4608082], [6.8431702, 46.4607802], [6.8433243, 46.4607902], [6.8433324, 46.4606921], [6.8434015, 46.4606895]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369517178",
+    "properties": {
+      "timestamp": "2016-03-07T16:42:35Z",
+      "version": "2",
+      "changeset": "37669725",
+      "user": "Papilli",
+      "uid": "229613",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "1",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle de Ancienne-Monneresse",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369517178"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8447654, 46.4598105], [6.8448074, 46.4597925], [6.8448817, 46.4597594], [6.8448984, 46.459778], [6.8449459, 46.45976], [6.8450294, 46.4598703], [6.8449911, 46.4598887], [6.8448676, 46.4599199], [6.8447654, 46.4598105]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369517183",
+    "properties": {
+      "timestamp": "2015-09-07T11:36:55Z",
+      "version": "1",
+      "changeset": "33854186",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "10",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle de l'Ancien-Port",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369517183"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8447183, 46.4599834], [6.8446211, 46.4598774], [6.844702, 46.4598435], [6.8448011, 46.4599482], [6.8447183, 46.4599834]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369517193",
+    "properties": {
+      "timestamp": "2015-09-07T11:36:55Z",
+      "version": "1",
+      "changeset": "33854186",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "2",
+      "addr:postcode": "1800",
+      "addr:street": "Rue des Deux-Marchés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369517193"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8449432, 46.4595865], [6.8450628, 46.4597029], [6.8450071, 46.4597319], [6.844962, 46.4597528], [6.8449459, 46.45976], [6.8448213, 46.4596191], [6.8449432, 46.4595865]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369517196",
+    "properties": {
+      "timestamp": "2015-09-07T11:36:56Z",
+      "version": "1",
+      "changeset": "33854186",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "2",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle de l'Ancienne-Monneresse",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369517196"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8450109, 46.4599074], [6.8449911, 46.4598887], [6.8450294, 46.4598703], [6.8449459, 46.45976], [6.844962, 46.4597528], [6.8449737, 46.4597677], [6.8450232, 46.4597476], [6.8450071, 46.4597319], [6.8450628, 46.4597029], [6.8451475, 46.4597783], [6.8451945, 46.459757], [6.8452341, 46.4597971], [6.845184, 46.4598341], [6.8452366, 46.4598729], [6.8452054, 46.4598922], [6.8451679, 46.4598652], [6.8451098, 46.4599023], [6.8450498, 46.4599388], [6.8450109, 46.4599074]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369517199",
+    "properties": {
+      "timestamp": "2015-09-07T11:36:56Z",
+      "version": "1",
+      "changeset": "33854186",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "21",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Simplon",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369517199"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.844856, 46.4601844], [6.844727, 46.4600742], [6.8447821, 46.4600424], [6.8447796, 46.4600356], [6.8447796, 46.4600271], [6.8447827, 46.4600173], [6.8447864, 46.4600113], [6.8447944, 46.4600054], [6.8450109, 46.4599074], [6.8450498, 46.4599388], [6.8451476, 46.4600177], [6.844856, 46.4601844]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369517202",
+    "properties": {
+      "timestamp": "2015-09-07T11:36:56Z",
+      "version": "1",
+      "changeset": "33854186",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "23",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Simplon",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369517202"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8445888, 46.4601227], [6.8446482, 46.4600877], [6.8446566, 46.4600856], [6.8446653, 46.4600847], [6.8446749, 46.4600856], [6.8446837, 46.4600874], [6.8446911, 46.4600911], [6.844695, 46.4600941], [6.844727, 46.4600742], [6.844856, 46.4601844], [6.8448012, 46.4602152], [6.8447383, 46.4602528], [6.8445888, 46.4601227]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369517205",
+    "properties": {
+      "timestamp": "2015-09-07T11:36:56Z",
+      "version": "1",
+      "changeset": "33854186",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "25",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Simplon",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369517205"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8445966, 46.4603414], [6.844434, 46.4602119], [6.8445888, 46.4601227], [6.8447383, 46.4602528], [6.8445966, 46.4603414]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369517207",
+    "properties": {
+      "timestamp": "2015-09-07T11:36:56Z",
+      "version": "1",
+      "changeset": "33854186",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "29",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Simplon",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369517207"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8444611, 46.4604282], [6.8442931, 46.4603125], [6.844434, 46.4602119], [6.8445966, 46.4603414], [6.8444611, 46.4604282]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369517210",
+    "properties": {
+      "timestamp": "2015-09-07T11:36:56Z",
+      "version": "1",
+      "changeset": "33854186",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "31",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Simplon",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369517210"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8442494, 46.4605836], [6.8441145, 46.4605109], [6.8441934, 46.4604547], [6.8441383, 46.4604245], [6.8441568, 46.4604096], [6.8442931, 46.4603125], [6.8444611, 46.4604282], [6.8442678, 46.4605697], [6.8442494, 46.4605836]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369517212",
+    "properties": {
+      "timestamp": "2015-09-07T11:36:57Z",
+      "version": "1",
+      "changeset": "33854186",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "33",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Simplon",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369517212"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8440692, 46.4607053], [6.8439713, 46.460639], [6.8439966, 46.4606155], [6.8439849, 46.4606082], [6.8440054, 46.4605927], [6.8439564, 46.4605649], [6.8440605, 46.4604818], [6.8441145, 46.4605109], [6.8442494, 46.4605836], [6.8440692, 46.4607053]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369517215",
+    "properties": {
+      "timestamp": "2015-09-07T11:36:57Z",
+      "version": "1",
+      "changeset": "33854186",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "35",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Simplon",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369517215"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8437815, 46.4609337], [6.8436214, 46.4608656], [6.8438365, 46.4606883], [6.8439686, 46.4605981], [6.8439849, 46.4606082], [6.8439966, 46.4606155], [6.8439713, 46.460639], [6.8440692, 46.4607053], [6.8439107, 46.4608277], [6.8437815, 46.4609337]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369517218",
+    "properties": {
+      "timestamp": "2015-09-07T11:36:57Z",
+      "version": "1",
+      "changeset": "33854186",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "39",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Simplon",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369517218"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8436686, 46.4610385], [6.8435131, 46.4609594], [6.8436214, 46.4608656], [6.8437815, 46.4609337], [6.8436686, 46.4610385]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369517221",
+    "properties": {
+      "timestamp": "2015-09-07T11:36:57Z",
+      "version": "1",
+      "changeset": "33854186",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "4",
+      "addr:postcode": "1800",
+      "addr:street": "Rue des Deux-Marchés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369517221"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8446363, 46.4596735], [6.8448213, 46.4596191], [6.8449459, 46.45976], [6.8448984, 46.459778], [6.8448817, 46.4597594], [6.8448494, 46.4597232], [6.8447864, 46.4597642], [6.8448074, 46.4597925], [6.8447654, 46.4598105], [6.8446363, 46.4596735]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369517224",
+    "properties": {
+      "timestamp": "2015-09-07T11:36:57Z",
+      "version": "1",
+      "changeset": "33854186",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "45",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Simplon",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369517224"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8435645, 46.4611391], [6.8434001, 46.4610518], [6.8434981, 46.4609517], [6.8435131, 46.4609594], [6.8436686, 46.4610385], [6.8435645, 46.4611391]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369517229",
+    "properties": {
+      "timestamp": "2016-03-07T16:42:36Z",
+      "version": "3",
+      "changeset": "37669725",
+      "user": "Papilli",
+      "uid": "229613",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "5",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle de Ancienne-Monneresse",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369517229"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8446934, 46.4599939], [6.8445137, 46.4600786], [6.844435, 46.4599919], [6.8444744, 46.4599735], [6.8444879, 46.4599672], [6.8444757, 46.4599543], [6.844539, 46.4599315], [6.8446082, 46.4599067], [6.8446934, 46.4599939]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369517234",
+    "properties": {
+      "timestamp": "2015-09-07T11:36:58Z",
+      "version": "1",
+      "changeset": "33854186",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "6",
+      "addr:postcode": "1800",
+      "addr:street": "Rue des Deux-Marchés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369517234"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8446363, 46.4596735], [6.8447654, 46.4598105], [6.8448676, 46.4599199], [6.8448011, 46.4599482], [6.844702, 46.4598435], [6.8445661, 46.4597], [6.8446363, 46.4596735]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369517239",
+    "properties": {
+      "timestamp": "2016-03-07T16:42:36Z",
+      "version": "2",
+      "changeset": "37669725",
+      "user": "Papilli",
+      "uid": "229613",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "7",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle de Ancienne-Monneresse",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369517239"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8444613, 46.46011], [6.8443827, 46.4601576], [6.8443005, 46.4600825], [6.8442564, 46.4600422], [6.8443597, 46.4599961], [6.8444613, 46.46011]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369517245",
+    "properties": {
+      "timestamp": "2015-09-07T11:36:58Z",
+      "version": "1",
+      "changeset": "33854186",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "8",
+      "addr:postcode": "1800",
+      "addr:street": "Rue des Deux-Marchés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369517245"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8446211, 46.4598774], [6.8445354, 46.459781], [6.8445285, 46.459784], [6.8445214, 46.459787], [6.8444751, 46.4597344], [6.8444814, 46.4597322], [6.8445661, 46.4597], [6.844702, 46.4598435], [6.8446211, 46.4598774]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369517248",
+    "properties": {
+      "timestamp": "2015-09-07T11:36:58Z",
+      "version": "1",
+      "changeset": "33854186",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "9",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Centre",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369517248"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8451772, 46.459645], [6.8450628, 46.4597029], [6.8449432, 46.4595865], [6.8450779, 46.4595443], [6.8451772, 46.459645]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369517251",
+    "properties": {
+      "timestamp": "2020-01-09T14:41:03Z",
+      "version": "3",
+      "changeset": "79381511",
+      "user": "Amadeous",
+      "uid": "4759025",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "9",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle de Ancienne-Monneresse",
+      "building": "apartments",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369517251"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8443827, 46.4601576], [6.8443314, 46.4601915], [6.844246, 46.460117], [6.8443005, 46.4600825], [6.8443827, 46.4601576]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369517254",
+    "properties": {
+      "timestamp": "2016-11-29T10:53:11Z",
+      "version": "3",
+      "changeset": "44031410",
+      "user": "Papilli",
+      "uid": "229613",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "9 bis",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle de Ancienne-Monneresse",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369517254"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8443314, 46.4601915], [6.8442702, 46.4602319], [6.8441953, 46.4601513], [6.844246, 46.460117], [6.8443314, 46.4601915]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369517256",
+    "properties": {
+      "timestamp": "2015-09-07T11:36:59Z",
+      "version": "1",
+      "changeset": "33854186",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Simplon",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369517256"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8434001, 46.4610518], [6.843345, 46.4611084], [6.8432824, 46.4611066], [6.843284, 46.4610736], [6.8433272, 46.4608727], [6.8434374, 46.4608811], [6.8434362, 46.4609192], [6.8434981, 46.4609517], [6.8434001, 46.4610518]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369520360",
+    "properties": {
+      "timestamp": "2015-09-07T11:53:19Z",
+      "version": "1",
+      "changeset": "33854494",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "10",
+      "addr:postcode": "1800",
+      "addr:street": "Rue des Deux-Marchés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369520360"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8443979, 46.459771], [6.8444751, 46.4597344], [6.8445214, 46.459787], [6.8446061, 46.4598891], [6.8445284, 46.4599195], [6.8443979, 46.459771]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369520361",
+    "properties": {
+      "timestamp": "2016-03-07T16:42:35Z",
+      "version": "2",
+      "changeset": "37669725",
+      "user": "Papilli",
+      "uid": "229613",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "11",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle de Ancienne-Monneresse",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369520361"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8441631, 46.4603254], [6.8440634, 46.4602302], [6.8441176, 46.4602001], [6.8441337, 46.4602139], [6.844213, 46.460282], [6.8441631, 46.4603254]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369520362",
+    "properties": {
+      "timestamp": "2015-09-07T11:53:19Z",
+      "version": "1",
+      "changeset": "33854494",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "12",
+      "addr:postcode": "1800",
+      "addr:street": "Rue des Deux-Marchés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369520362"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8443358, 46.4598], [6.8443979, 46.459771], [6.8445284, 46.4599195], [6.844539, 46.4599315], [6.8444757, 46.4599543], [6.8443358, 46.4598]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369520363",
+    "properties": {
+      "timestamp": "2015-09-07T11:53:19Z",
+      "version": "1",
+      "changeset": "33854494",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "14",
+      "addr:postcode": "1800",
+      "addr:street": "Rue des Deux-Marchés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369520363"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8442755, 46.4598313], [6.8443358, 46.4598], [6.8444757, 46.4599543], [6.8444879, 46.4599672], [6.8444744, 46.4599735], [6.8444583, 46.4599572], [6.8444176, 46.4599744], [6.8442755, 46.4598313]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369520364",
+    "properties": {
+      "timestamp": "2015-09-07T11:53:19Z",
+      "version": "1",
+      "changeset": "33854494",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "14",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Conseil",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369520364"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8437966, 46.4602622], [6.8438203, 46.4602194], [6.8438299, 46.4602158], [6.8438413, 46.4602133], [6.8438513, 46.4602137], [6.8438609, 46.4602167], [6.8439077, 46.4601847], [6.8438797, 46.4601561], [6.8438749, 46.4601474], [6.8438727, 46.4601389], [6.8438714, 46.460126], [6.8438727, 46.4601172], [6.8438894, 46.460079], [6.8440634, 46.4602302], [6.8441631, 46.4603254], [6.8440901, 46.4603781], [6.8440109, 46.4604387], [6.843934, 46.4603748], [6.8437966, 46.4602622]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369520365",
+    "properties": {
+      "timestamp": "2016-03-07T16:42:36Z",
+      "version": "2",
+      "changeset": "37669725",
+      "user": "Papilli",
+      "uid": "229613",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "15",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle de Ancienne-Monneresse",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369520365"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8439663, 46.4604718], [6.8438806, 46.4604048], [6.843934, 46.4603748], [6.8440109, 46.4604387], [6.8439663, 46.4604718]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369520366",
+    "properties": {
+      "timestamp": "2015-09-07T11:53:20Z",
+      "version": "1",
+      "changeset": "33854494",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "16",
+      "addr:postcode": "1800",
+      "addr:street": "Rue des Deux-Marchés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369520366"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8443227, 46.4599663], [6.8442151, 46.4598626], [6.8442755, 46.4598313], [6.8444176, 46.4599744], [6.844435, 46.4599919], [6.8445137, 46.4600786], [6.8444613, 46.46011], [6.8443597, 46.4599961], [6.8443761, 46.4599879], [6.8443428, 46.4599536], [6.8443227, 46.4599663]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369520367",
+    "properties": {
+      "timestamp": "2015-09-07T11:53:20Z",
+      "version": "1",
+      "changeset": "33854494",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "18",
+      "addr:postcode": "1800",
+      "addr:street": "Rue des Deux-Marchés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369520367"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8441216, 46.4599126], [6.8442151, 46.4598626], [6.8443227, 46.4599663], [6.8443332, 46.4599765], [6.8442386, 46.460025], [6.8441216, 46.4599126]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369520368",
+    "properties": {
+      "timestamp": "2015-09-07T11:53:20Z",
+      "version": "1",
+      "changeset": "33854494",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "18",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Conseil",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369520368"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8437713, 46.4603194], [6.8437966, 46.4602622], [6.843934, 46.4603748], [6.8438806, 46.4604048], [6.8437713, 46.4603194]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369520369",
+    "properties": {
+      "timestamp": "2015-09-07T11:53:20Z",
+      "version": "1",
+      "changeset": "33854494",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "20",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Conseil",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369520369"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8437442, 46.4603893], [6.8437713, 46.4603194], [6.8438806, 46.4604048], [6.8439663, 46.4604718], [6.8439121, 46.4605158], [6.8438453, 46.4604652], [6.8437617, 46.4604019], [6.8437442, 46.4603893]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369520370",
+    "properties": {
+      "timestamp": "2016-03-07T16:42:36Z",
+      "version": "2",
+      "changeset": "37669725",
+      "user": "Papilli",
+      "uid": "229613",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "21",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle de Ancienne-Monneresse",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369520370"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8438028, 46.4605935], [6.8437627, 46.4605674], [6.8438453, 46.4604652], [6.8439121, 46.4605158], [6.8438028, 46.4605935]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369520371",
+    "properties": {
+      "timestamp": "2020-01-05T08:20:18Z",
+      "version": "2",
+      "changeset": "79207085",
+      "user": "Amadeous",
+      "uid": "4759025",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "22",
+      "addr:postcode": "1800",
+      "addr:street": "Rue des Deux-Marchés",
+      "building": "apartments",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369520371"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.844049, 46.4599506], [6.8441216, 46.4599126], [6.8442386, 46.460025], [6.8442564, 46.4600422], [6.844194, 46.460073], [6.844049, 46.4599506]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369520372",
+    "properties": {
+      "timestamp": "2020-01-05T08:20:07Z",
+      "version": "2",
+      "changeset": "79207085",
+      "user": "Amadeous",
+      "uid": "4759025",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "24",
+      "addr:postcode": "1800",
+      "addr:street": "Rue des Deux-Marchés",
+      "building": "apartments",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369520372"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8440087, 46.4599723], [6.844049, 46.4599506], [6.844194, 46.460073], [6.844246, 46.460117], [6.8441953, 46.4601513], [6.8440087, 46.4599723]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369520373",
+    "properties": {
+      "timestamp": "2015-09-07T11:53:21Z",
+      "version": "1",
+      "changeset": "33854494",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "24",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Conseil",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369520373"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8437627, 46.4605674], [6.8437223, 46.4605411], [6.8437617, 46.4604019], [6.8438453, 46.4604652], [6.8437627, 46.4605674]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369520374",
+    "properties": {
+      "timestamp": "2015-09-07T11:53:21Z",
+      "version": "1",
+      "changeset": "33854494",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "26",
+      "addr:postcode": "1800",
+      "addr:street": "Rue des Deux-Marchés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369520374"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8439536, 46.4600054], [6.8440087, 46.4599723], [6.8441953, 46.4601513], [6.8441474, 46.4601826], [6.8441658, 46.4601971], [6.8441337, 46.4602139], [6.8441176, 46.4602001], [6.8440839, 46.4601699], [6.8441111, 46.4601554], [6.8439536, 46.4600054]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369520375",
+    "properties": {
+      "timestamp": "2020-01-05T08:20:11Z",
+      "version": "2",
+      "changeset": "79207085",
+      "user": "Amadeous",
+      "uid": "4759025",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "28",
+      "addr:postcode": "1800",
+      "addr:street": "Rue des Deux-Marchés",
+      "building": "apartments",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369520375"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8438894, 46.460079], [6.8439186, 46.460041], [6.8439536, 46.4600054], [6.8441111, 46.4601554], [6.8440839, 46.4601699], [6.8441176, 46.4602001], [6.8440634, 46.4602302], [6.8438894, 46.460079]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369520376",
+    "properties": {
+      "timestamp": "2015-09-07T11:53:21Z",
+      "version": "1",
+      "changeset": "33854494",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:postcode": "1800",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369520376"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8442564, 46.4600422], [6.8443005, 46.4600825], [6.844246, 46.460117], [6.844194, 46.460073], [6.8442564, 46.4600422]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369520377",
+    "properties": {
+      "timestamp": "2016-03-07T16:42:36Z",
+      "version": "2",
+      "changeset": "37669725",
+      "user": "Papilli",
+      "uid": "229613",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle de Ancienne-Monneresse",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369520377"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.844213, 46.460282], [6.8441337, 46.4602139], [6.8441658, 46.4601971], [6.8441474, 46.4601826], [6.8441953, 46.4601513], [6.8442702, 46.4602319], [6.844213, 46.460282]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369541485",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:21Z",
+      "version": "1",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "1",
+      "addr:postcode": "1800",
+      "addr:street": "Place Scanavin",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369541485"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8444395, 46.4591465], [6.8445099, 46.4592245], [6.8444377, 46.4592507], [6.8443813, 46.4591887], [6.8443713, 46.4591736], [6.8444395, 46.4591465]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369541486",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:22Z",
+      "version": "1",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "1",
+      "addr:postcode": "1800",
+      "addr:street": "Rue des Deux-Marchés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369541486"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8448256, 46.4595551], [6.844711, 46.4594111], [6.8447827, 46.459384], [6.844805, 46.4594125], [6.8448955, 46.4595286], [6.8448256, 46.4595551]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369541487",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:22Z",
+      "version": "1",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "10",
+      "addr:postcode": "1800",
+      "addr:street": "Place de l'Ancien-Port",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369541487"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8443297, 46.4590272], [6.8444255, 46.4591298], [6.8444395, 46.4591465], [6.8443713, 46.4591736], [6.8442624, 46.459051], [6.8443297, 46.4590272]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369541488",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:22Z",
+      "version": "1",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "12",
+      "addr:postcode": "1800",
+      "addr:street": "Place de l'Ancien-Port",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369541488"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8442624, 46.459051], [6.8443713, 46.4591736], [6.8443813, 46.4591887], [6.8443114, 46.4592173], [6.8442784, 46.4591786], [6.8441898, 46.4590748], [6.8442624, 46.459051]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369541489",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:22Z",
+      "version": "1",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "14",
+      "addr:postcode": "1800",
+      "addr:street": "Place de l'Ancien-Port",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369541489"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8441898, 46.4590748], [6.8442784, 46.4591786], [6.844223, 46.4591986], [6.8441251, 46.4590989], [6.8441898, 46.4590748]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369541490",
+    "properties": {
+      "timestamp": "2020-01-05T12:03:12Z",
+      "version": "4",
+      "changeset": "79210880",
+      "user": "Amadeous",
+      "uid": "4759025",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "15",
+      "addr:postcode": "1800",
+      "addr:street": "Rue des Deux-Marchés",
+      "building": "apartments",
+      "building:levels": "4",
+      "roof:levels": "1",
+      "roof:shape": "half-hipped",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369541490"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8440557, 46.4597032], [6.8441447, 46.4598006], [6.8438801, 46.4599552], [6.8438206, 46.4599425], [6.8437926, 46.4598202], [6.8440557, 46.4597032]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369541491",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:22Z",
+      "version": "1",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "2",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Conseil",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369541491"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8439336, 46.4592617], [6.8440376, 46.4591856], [6.8442054, 46.4593509], [6.8440938, 46.4594111], [6.8439336, 46.4592617]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369541492",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:22Z",
+      "version": "1",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "2",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle de l'Ancien-Port",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369541492"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8441251, 46.4590989], [6.844223, 46.4591986], [6.8441412, 46.4592299], [6.8440612, 46.4591341], [6.8441251, 46.4590989]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369541493",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:23Z",
+      "version": "1",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "3",
+      "addr:postcode": "1800",
+      "addr:street": "Place Scanavin",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369541493"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.844223, 46.4591986], [6.8442784, 46.4591786], [6.8443114, 46.4592173], [6.8443813, 46.4591887], [6.8444377, 46.4592507], [6.8443105, 46.4593022], [6.844223, 46.4591986]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369541494",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:23Z",
+      "version": "1",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "3",
+      "addr:postcode": "1800",
+      "addr:street": "Rue des Deux-Marchés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369541494"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8444661, 46.4594997], [6.8446183, 46.4594346], [6.844627, 46.459446], [6.844711, 46.4594111], [6.8448256, 46.4595551], [6.844571, 46.4596455], [6.8445151, 46.459572], [6.8444661, 46.4594997]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369541495",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:23Z",
+      "version": "1",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "3",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Centre",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369541495"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8447836, 46.4592575], [6.8447224, 46.4592912], [6.8446191, 46.4593226], [6.844592, 46.459293], [6.8445273, 46.4592153], [6.84469, 46.4591544], [6.8447556, 46.4592261], [6.8447836, 46.4592575]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369541496",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:23Z",
+      "version": "1",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "4",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Conseil",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369541496"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8438818, 46.459325], [6.8439336, 46.4592617], [6.8440938, 46.4594111], [6.8440179, 46.4594661], [6.8438818, 46.459325]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369541497",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:23Z",
+      "version": "1",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "5",
+      "addr:postcode": "1800",
+      "addr:street": "Place Scanavin",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369541497"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8441412, 46.4592299], [6.844223, 46.4591986], [6.8443105, 46.4593022], [6.8442331, 46.459336], [6.8441412, 46.4592299]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369541498",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:23Z",
+      "version": "1",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "5",
+      "addr:postcode": "1800",
+      "addr:street": "Rue des Deux-Marchés",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369541498"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8444787, 46.459583], [6.8445151, 46.459572], [6.844571, 46.4596455], [6.8445361, 46.4596593], [6.8444787, 46.459583]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369541499",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:23Z",
+      "version": "1",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "5",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Centre",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369541499"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8448821, 46.4593793], [6.844805, 46.4594125], [6.8447827, 46.459384], [6.844711, 46.4594111], [6.844627, 46.459446], [6.8446183, 46.4594346], [6.8445483, 46.4593442], [6.8446191, 46.4593226], [6.8447224, 46.4592912], [6.8447836, 46.4592575], [6.8448821, 46.4593793]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369541500",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:24Z",
+      "version": "1",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "6",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Conseil",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369541500"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.843825, 46.4594581], [6.8438818, 46.459325], [6.8440179, 46.4594661], [6.8439879, 46.4594881], [6.843825, 46.4594581]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369541501",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:24Z",
+      "version": "1",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "6",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle de l'Ancien-Port",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369541501"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8444154, 46.4596021], [6.844404, 46.4595798], [6.8444145, 46.4595762], [6.8443795, 46.4595226], [6.8444661, 46.4594997], [6.8445151, 46.459572], [6.8444787, 46.459583], [6.8444154, 46.4596021]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369541502",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:24Z",
+      "version": "1",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "7",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Centre",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369541502"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8448955, 46.4595286], [6.844805, 46.4594125], [6.8448821, 46.4593793], [6.8449716, 46.4594979], [6.8448955, 46.4595286]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369541503",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:24Z",
+      "version": "1",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "8",
+      "addr:postcode": "1800",
+      "addr:street": "Place de l'Ancien-Port",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369541503"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.84469, 46.4591544], [6.8445273, 46.4592153], [6.8444435, 46.4591226], [6.8444255, 46.4591298], [6.8443297, 46.4590272], [6.8444534, 46.4589794], [6.8444899, 46.4590165], [6.8445387, 46.4589969], [6.84469, 46.4591544]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369541504",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:24Z",
+      "version": "1",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "8",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Conseil",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369541504"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.843733, 46.4596948], [6.843825, 46.4594581], [6.8439879, 46.4594881], [6.8438959, 46.4597248], [6.843733, 46.4596948]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369541505",
+    "properties": {
+      "timestamp": "2015-09-07T14:21:24Z",
+      "version": "1",
+      "changeset": "33857698",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "8",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle de l'Ancien-Port",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369541505"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8444787, 46.459583], [6.8445361, 46.4596593], [6.8444783, 46.4596786], [6.8444154, 46.4596021], [6.8444787, 46.459583]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369541506",
+    "properties": {
+      "timestamp": "2020-01-05T12:03:06Z",
+      "version": "6",
+      "changeset": "79210880",
+      "user": "Amadeous",
+      "uid": "4759025",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "9",
+      "addr:postcode": "1800",
+      "addr:street": "Rue des Deux-Marchés",
+      "building": "apartments",
+      "building:levels": "4",
+      "roof:levels": "1",
+      "roof:shape": "gabled",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369541506"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8441447, 46.4598006], [6.8440557, 46.4597032], [6.8443196, 46.4595888], [6.8444086, 46.4596863], [6.8441447, 46.4598006]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369620277",
+    "properties": {
+      "timestamp": "2015-09-08T05:50:01Z",
+      "version": "1",
+      "changeset": "33873051",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "2",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Centre",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369620277"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8447922, 46.4590668], [6.8448886, 46.4590401], [6.8449516, 46.4590408], [6.8449935, 46.4591368], [6.8448834, 46.4591657], [6.8447922, 46.4590668]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369620278",
+    "properties": {
+      "timestamp": "2015-09-08T05:50:01Z",
+      "version": "1",
+      "changeset": "33873051",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "26",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Lac",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369620278"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.845063, 46.4589787], [6.8450952, 46.459113], [6.8449935, 46.4591368], [6.8449516, 46.4590408], [6.84494, 46.4589743], [6.845063, 46.4589787]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369620279",
+    "properties": {
+      "timestamp": "2015-09-08T05:50:01Z",
+      "version": "1",
+      "changeset": "33873051",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "28",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Lac",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369620279"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8447922, 46.4590668], [6.8447156, 46.4589787], [6.84494, 46.4589743], [6.8449516, 46.4590408], [6.8448886, 46.4590401], [6.8447922, 46.4590668]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369620280",
+    "properties": {
+      "timestamp": "2015-09-08T15:05:04Z",
+      "version": "2",
+      "changeset": "33884845",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "4",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Centre",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369620280"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8448834, 46.4591657], [6.8449935, 46.4591368], [6.8450952, 46.459113], [6.8451164, 46.4591643], [6.8451424, 46.4592271], [6.8449809, 46.4592611], [6.8448834, 46.4591657]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/369620281",
+    "properties": {
+      "timestamp": "2015-09-08T15:05:04Z",
+      "version": "2",
+      "changeset": "33884845",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "6",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Centre",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369620281"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8449809, 46.4592611], [6.8451424, 46.4592271], [6.8451664, 46.4592644], [6.8451749, 46.4592777], [6.8450449, 46.4593189], [6.8449809, 46.4592611]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/375206495",
+    "properties": {
+      "timestamp": "2015-10-14T09:25:56Z",
+      "version": "1",
+      "changeset": "34628992",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "38",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Simplon",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/375206495"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8441391, 46.4608162], [6.844372, 46.4606586], [6.8447262, 46.4608546], [6.8445228, 46.461019], [6.8441391, 46.4608162]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/375206496",
+    "properties": {
+      "timestamp": "2015-10-14T09:25:56Z",
+      "version": "1",
+      "changeset": "34628992",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "40",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Simplon",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/375206496"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8439538, 46.4609512], [6.844117, 46.4608247], [6.844413, 46.4609845], [6.8442736, 46.4610958], [6.8441491, 46.4610357], [6.8442219, 46.4609744], [6.8441818, 46.4609518], [6.8441317, 46.4609896], [6.8441203, 46.4609834], [6.8440809, 46.4610156], [6.8439538, 46.4609512]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/375206497",
+    "properties": {
+      "timestamp": "2015-10-14T09:25:56Z",
+      "version": "1",
+      "changeset": "34628992",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "42",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Simplon",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/375206497"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8438571, 46.461032], [6.8439538, 46.4609512], [6.8440809, 46.4610156], [6.8440276, 46.4610647], [6.8440621, 46.4610822], [6.844126, 46.4610246], [6.8441491, 46.4610357], [6.8442736, 46.4610958], [6.8441744, 46.4611878], [6.8438571, 46.461032]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/375335831",
+    "properties": {
+      "timestamp": "2015-10-15T05:36:44Z",
+      "version": "1",
+      "changeset": "34646405",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "2",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Musée",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/375335831"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8444717, 46.4605864], [6.8446848, 46.4606], [6.8447554, 46.4605555], [6.8447757, 46.4605725], [6.8446187, 46.460673], [6.8444717, 46.4605864]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/375335833",
+    "properties": {
+      "timestamp": "2015-10-15T05:36:44Z",
+      "version": "1",
+      "changeset": "34646405",
+      "user": "schnelli",
+      "uid": "225842",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "4",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Musée",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/375335833"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8446187, 46.460673], [6.8447757, 46.4605725], [6.8448791, 46.4606588], [6.8447364, 46.4607424], [6.8446187, 46.460673]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/375335834",
+    "properties": {
+      "timestamp": "2020-01-05T08:21:21Z",
+      "version": "3",
+      "changeset": "79207085",
+      "user": "Amadeous",
+      "uid": "4759025",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "4bis",
+      "addr:postcode": "1800",
+      "addr:street": "Rue du Musée",
+      "building": "parking",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/375335834"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8449708, 46.4608418], [6.8448593, 46.4607814], [6.8448658, 46.4607746], [6.8448748, 46.4607701], [6.8448871, 46.4607667], [6.8449003, 46.4607644], [6.8449158, 46.4607644], [6.8449265, 46.4607678], [6.844938, 46.4607718], [6.8449511, 46.4607819], [6.8449795, 46.4607657], [6.8450314, 46.4607362], [6.8450924, 46.4607904], [6.8450118, 46.460835], [6.8449995, 46.4608395], [6.8449855, 46.4608418], [6.8449708, 46.4608418]]]
+    }
+  }, {
+    "type": "Feature",
+    "id": "way/737131914",
+    "properties": {
+      "timestamp": "2019-10-20T21:19:55Z",
+      "version": "1",
+      "changeset": "75965220",
+      "user": "Matthias Frank",
+      "uid": "287306",
+      "addr:housename": "La Grenette",
+      "building": "public",
+      "name": "La Grenette",
+      "id": "way/737131914"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8426554, 46.4605767], [6.8426225, 46.4605129], [6.8428438, 46.4604747], [6.8428554, 46.4605419], [6.8426554, 46.4605767]]]
+    }
+  }]
+};
+},{}],"chezmoi.json":[function(require,module,exports) {
+module.exports = {
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "id": "way/369520370",
+    "properties": {
+      "timestamp": "2016-03-07T16:42:36Z",
+      "version": "2",
+      "changeset": "37669725",
+      "user": "Papilli",
+      "uid": "229613",
+      "addr:city": "Vevey",
+      "addr:country": "CH",
+      "addr:housenumber": "21",
+      "addr:postcode": "1800",
+      "addr:street": "Ruelle de Ancienne-Monneresse",
+      "building": "yes",
+      "source": "Orthophoto Cartoriviera 2012",
+      "id": "way/369520370"
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [[[6.8438028, 46.4605935], [6.8437627, 46.4605674], [6.8438453, 46.4604652], [6.8439121, 46.4605158], [6.8438028, 46.4605935]]]
+    }
+  }]
+};
+},{}],"index.js":[function(require,module,exports) {
 "use strict";
 
-var d3 = _interopRequireWildcard(require("d3"));
+var _d = require("d3");
 
-function _getRequireWildcardCache() { if (typeof WeakMap !== "function") return null; var cache = new WeakMap(); _getRequireWildcardCache = function () { return cache; }; return cache; }
+var _routes = _interopRequireDefault(require("/routes.json"));
 
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+var _batiments = _interopRequireDefault(require("/batiments.json"));
 
-var WIDTH = 1000;
-var HEIGHT = 500;
-var MARGIN = 5;
-var svg = d3.select('body').append('svg').attr('width', WIDTH).attr('height', HEIGHT);
-var DATA = [{
-  nom: 'Lausanne',
-  population: 138905
-}, {
-  nom: 'Yverdon',
-  population: 30143
-}, {
-  nom: 'Montreux',
-  population: 26574
-}, {
-  nom: 'Renens',
-  population: 21036
-}, {
-  nom: 'Nyon',
-  population: 20533
-}, {
-  nom: 'Vevey',
-  population: 19827
-}];
-var BAR_WIDTH = WIDTH / DATA.length;
-var yScale = d3.scaleLinear().domain([0, d3.max(DATA, function (d) {
-  return d.population;
-})]).range([HEIGHT, 0]);
-svg.selectAll('rect').data(DATA).enter().append('rect').attr('x', function (d, i) {
-  return i * BAR_WIDTH;
-}).attr('width', BAR_WIDTH - MARGIN).attr('y', function (d) {
-  return yScale(d.population);
-}).attr('height', function (d) {
-  return HEIGHT - yScale(d.population);
-}).attr('fill', 'steelblue');
-},{"d3":"../../../node_modules/d3/index.js"}],"../../../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+var _chezmoi = _interopRequireDefault(require("/chezmoi.json"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var WIDTH = 800;
+var HEIGHT = 500; // la projection
+
+var projection = (0, _d.geoMercator)().fitExtent([[0, 0], [WIDTH, HEIGHT]], _batiments.default); // centrer la carte sur les bâtiments
+// le constructeur d'attribut "d" pour les éléments <path>
+
+var pathCreator = (0, _d.geoPath)().projection(projection); // le svg
+
+var svg = (0, _d.select)('body').append('svg').attr('width', WIDTH).attr('height', HEIGHT); // un groupe pour les routes
+
+var groupeRoutes = svg.append('g'); // un <path> par route
+
+groupeRoutes.selectAll('path').data(_routes.default.features).enter().append('path').attr('d', pathCreator).attr('fill', 'none').attr('stroke', 'lightgray').attr('stroke-width', 3); // un groupe pour les bâtiments
+
+var groupeBatiments = svg.append('g'); // un <path> par bâtiment
+
+groupeBatiments.selectAll('path').data(_batiments.default.features).enter().append('path').attr('d', pathCreator).attr('fill', 'indianred').attr('stroke', 'black');
+console.log(_chezmoi.default.features);
+var chezmoi = svg.append('g');
+chezmoi.selectAll('path').data(_chezmoi.default.features).enter().append('path').attr('d', pathCreator).attr('stroke', 'black').attr('fill', 'forestgreen');
+},{"d3":"../../../node_modules/d3/index.js","/routes.json":"routes.json","/batiments.json":"batiments.json","/chezmoi.json":"chezmoi.json"}],"../../../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
