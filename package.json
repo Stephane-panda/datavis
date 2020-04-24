@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "baton": "parcel 20200228/src/index.html --out-dir 20200228/dist",
     "pie": "parcel 20200306/graphique-d3/index.html --out-dir 20200306/dist",
-    "cart": "parcel 20200403/carte/src/index.html --out-dir 20200403/cart/dist"
+    "cart": "parcel 20200403/carte/src/index.html --out-dir 20200403/cart/dist",
+    "proj": "parcel projet/Mldm/src/index.html --out-dir projet/Mldm/dist"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,7 @@
     "ramda": "^0.27.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "surge": "^0.21.3",
     "xlsx": "^0.15.6"
   }
 }
