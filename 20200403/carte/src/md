@@ -22,3 +22,13 @@ ndjson-cat vevey.json \
 | ndjson-reduce \
 | ndjson-map "{type: 'FeatureCollection', features: d}" \
 > batiments.json
+
+chez moi 
+
+
+ndjson-cat vevey.json \
+| ndjson-split "d.features" \
+| ndjson-filter "d.properties.id === 'way/369520370'" \
+| ndjson-reduce \
+| ndjson-map "{type: 'FeatureCollection', features: d}" \
+> chezmoi.json
