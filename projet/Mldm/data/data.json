@@ -1,0 +1,327 @@
+[
+  {
+    "groupe": "Communication et Marketing",
+    "sousGroupe": "Business",
+    "nom": "Directeurs de stratégie et planifications",
+    "nombredeplace": "9084"
+  },
+  {
+    "groupe": "Communication et Marketing",
+    "sousGroupe": "Business",
+    "nom": "Directeurs de marketing",
+    "nombredeplace": "14548"
+  },
+  {
+    "groupe": "Communication et Marketing",
+    "sousGroupe": "Business",
+    "nom": "Directeurs de publicité et relations publiques",
+    "nombredeplace": "5715"
+  },
+  {
+    "groupe": "Communication et Marketing",
+    "sousGroupe": "Business",
+    "nom": "Directeurs de recherche et développement",
+    "nombredeplace": "7378"
+  },
+  {
+    "groupe": "Communication et Marketing",
+    "sousGroupe": "Business",
+    "nom": "Directeurs de technologies de l’information et de la communication",
+    "nombredeplace": "10445"
+  },
+  {
+    "groupe": "Communication et Marketing",
+    "sousGroupe": "Business",
+    "nom": "Chefs de projet",
+    "nombredeplace": "40942"
+  },
+  {
+    "groupe": "Communication et Marketing",
+    "sousGroupe": "Business",
+    "nom": "Business Analyst",
+    "nombredeplace": "21569"
+  },
+  {
+    "groupe": "Communication et Marketing",
+    "sousGroupe": "Marketing",
+    "nom": "Spécialistes du marketing et de la publicité",
+    "nombredeplace": "33551"
+  },
+  {
+    "groupe": "Communication et Marketing",
+    "sousGroupe": "Marketing",
+    "nom": "Spécialistes des relations publiques",
+    "nombredeplace": "5690"
+  },
+  {
+    "groupe": "Communication et Marketing",
+    "sousGroupe": "Marketing",
+    "nom": "Market resaearch analyst",
+    "nombredeplace": "333"
+  },
+  {
+    "groupe": "Communication et Marketing",
+    "sousGroupe": "Marketing",
+    "nom": "Organisateurs de conférences et d’événements",
+    "nombredeplace": "4835"
+  },
+  {
+    "groupe": "Communication et Marketing",
+    "sousGroupe": "Marketing",
+    "nom": "Télévendeurs",
+    "nombredeplace": "215"
+  },
+  {
+    "groupe": "Communication et Marketing",
+    "sousGroupe": "Marketing",
+    "nom": "Médiamaticiens",
+    "nombredeplace": "4655"
+  },
+  {
+    "groupe": "Communication et Marketing",
+    "sousGroupe": "Rédaction",
+    "nom": "Journalistes",
+    "nombredeplace": "11664"
+  },
+  {
+    "groupe": "Communication et Marketing",
+    "sousGroupe": "Rédaction",
+    "nom": "Traducteurs, interprètes et linguistes",
+    "nombredeplace": "5721"
+  },
+  {
+    "groupe": "Informatique ",
+    "sousGroupe": "Développeur",
+    "nom": "Ingénieurs en informatique",
+    "nombredeplace": "4702"
+  },
+  {
+    "groupe": "Informatique ",
+    "sousGroupe": "Développeur",
+    "nom": "Spécialistes TIC",
+    "nombredeplace": "17174"
+  },
+  {
+    "groupe": "Informatique ",
+    "sousGroupe": "Développeur",
+    "nom": "Concepteurs de logiciels",
+    "nombredeplace": "45353"
+  },
+  {
+    "groupe": "Informatique ",
+    "sousGroupe": "Développeur",
+    "nom": "Programmeurs d’applications",
+    "nombredeplace": "5275"
+  },
+  {
+    "groupe": "Informatique ",
+    "sousGroupe": "Réseau",
+    "nom": "Spécialistes des télécommunications",
+    "nombredeplace": "979"
+  },
+  {
+    "groupe": "Informatique ",
+    "sousGroupe": "Réseau",
+    "nom": "Architecte de réseau",
+    "nombredeplace": "2126"
+  },
+  {
+    "groupe": "Informatique ",
+    "sousGroupe": "Réseau",
+    "nom": "Techniciens de l’internet",
+    "nombredeplace": "713"
+  },
+  {
+    "groupe": "Informatique ",
+    "sousGroupe": "Réseau",
+    "nom": "Techniciens des télécommunications",
+    "nombredeplace": "1493"
+  },
+  {
+    "groupe": "Informatique ",
+    "sousGroupe": "Système",
+    "nom": "Analystes de systèmes",
+    "nombredeplace": "26707"
+  },
+  {
+    "groupe": "Informatique ",
+    "sousGroupe": "Système",
+    "nom": "Spécialistes des bases de données",
+    "nombredeplace": "3501"
+  },
+  {
+    "groupe": "Informatique ",
+    "sousGroupe": "Système",
+    "nom": "Administrateurs de systèmes",
+    "nombredeplace": "3517"
+  },
+  {
+    "groupe": "Informatique ",
+    "sousGroupe": "Système",
+    "nom": "Spécialistes en sécurité et data mining",
+    "nombredeplace": "2087"
+  },
+  {
+    "groupe": "Informatique ",
+    "sousGroupe": "Système",
+    "nom": "Opérateur de centre de données",
+    "nombredeplace": "6277"
+  },
+  {
+    "groupe": "Informatique ",
+    "sousGroupe": "Système",
+    "nom": "Techniciens, réseaux et systèmes d’ordinateurs",
+    "nombredeplace": "1305"
+  },
+  {
+    "groupe": "Informatique ",
+    "sousGroupe": "Système",
+    "nom": "Technicien de maintenance en informatique",
+    "nombredeplace": "6809"
+  },
+  {
+    "groupe": "Design et Creation",
+    "sousGroupe": "Média",
+    "nom": "Concepteurs graphiques, multimédia – graphistes",
+    "nombredeplace": "11803"
+  },
+  {
+    "groupe": "Design et Creation",
+    "sousGroupe": "Média",
+    "nom": "UX Designer",
+    "nombredeplace": "202"
+  },
+  {
+    "groupe": "Design et Creation",
+    "sousGroupe": "Média",
+    "nom": "Photographes",
+    "nombredeplace": "4796"
+  },
+  {
+    "groupe": "Design et Creation",
+    "sousGroupe": "Média",
+    "nom": "Techniciens de l'audiovisuel",
+    "nombredeplace": "4321"
+  },
+  {
+    "groupe": "Design et Creation",
+    "sousGroupe": "Média",
+    "nom": "Compositeurs, musiciens et chanteurs",
+    "nombredeplace": "8259"
+  },
+  {
+    "groupe": "Design et Creation",
+    "sousGroupe": "Imprimé",
+    "nom": "Techniciens de prépresse",
+    "nombredeplace": "5991"
+  },
+  {
+    "groupe": "Design et Creation",
+    "sousGroupe": "Imprimé",
+    "nom": "Imprimeurs",
+    "nombredeplace": "4641"
+  },
+  {
+    "groupe": "Design et Creation",
+    "sousGroupe": "Imprimé",
+    "nom": "Relieurs et assimilés",
+    "nombredeplace": "1304"
+  },
+  {
+    "groupe": "Design et Creation",
+    "sousGroupe": "Art",
+    "nom": "Metteurs en scène de cinéma, de théâtre et d’autres spectacles",
+    "nombredeplace": "5288"
+  },
+  {
+    "groupe": "Design et Creation",
+    "sousGroupe": "Art",
+    "nom": "Artistes créateurs et exécutants",
+    "nombredeplace": "1295"
+  },
+  {
+    "groupe": "X",
+    "sousGroupe": "X",
+    "nom": "Profession exercée inconnue",
+    "nombredeplace": "5872"
+  },
+  {
+    "groupe": "Communication et Marketing",
+    "sousGroupe": "",
+    "nom": "",
+    "nombredeplace": "176345"
+  },
+  {
+    "groupe": "Informatique ",
+    "sousGroupe": "",
+    "nom": "",
+    "nombredeplace": "128019"
+  },
+  {
+    "groupe": "Design et Creation",
+    "sousGroupe": "",
+    "nom": "",
+    "nombredeplace": "47901"
+  },
+  {
+    "groupe": "total",
+    "sousGroupe": "",
+    "nom": "",
+    "nombredeplace": "358138"
+  },
+  {
+    "groupe": "X",
+    "sousGroupe": "Business",
+    "nom": "",
+    "nombredeplace": "109681"
+  },
+  {
+    "groupe": "X",
+    "sousGroupe": "Marketing",
+    "nom": "",
+    "nombredeplace": "49279"
+  },
+  {
+    "groupe": "X",
+    "sousGroupe": "Rédaction",
+    "nom": "",
+    "nombredeplace": "17385"
+  },
+  {
+    "groupe": "X",
+    "sousGroupe": "Développeur",
+    "nom": "",
+    "nombredeplace": "72505"
+  },
+  {
+    "groupe": "X",
+    "sousGroupe": "Réseau",
+    "nom": "",
+    "nombredeplace": "5312"
+  },
+  {
+    "groupe": "X",
+    "sousGroupe": "Système",
+    "nom": "",
+    "nombredeplace": "50203"
+  },
+  {
+    "groupe": "X",
+    "sousGroupe": "Média",
+    "nom": "",
+    "nombredeplace": "29382"
+  },
+  {
+    "groupe": "X",
+    "sousGroupe": "Imprimé",
+    "nom": "",
+    "nombredeplace": "11936"
+  },
+  {
+    "groupe": "X",
+    "sousGroupe": "Art",
+    "nom": "",
+    "nombredeplace": "6584"
+  }
+
+]

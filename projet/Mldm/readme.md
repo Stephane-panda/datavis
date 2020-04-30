@@ -1,12 +1,16 @@
-# Mise en place d'un projet d3
+# projet d3 sur le marché du travail des medias
 
-## Utilisation
+# provenance des données
+c'est données viennent de Office fédérale de la statitique optenu par les chiffres de l'AVS.
+c'est donnée date de 2018 sur base NOGA (une nommenclature) certains non on été remis au goûts du jour.
 
-Creez un nouveau dossier au nom de votre projet, copiez cette mise en place et installez les librairies nécessaires:
+# transformation 
+Elle ont été trier à la main pour gardé que les métiers des médias 
 
-```
-mkdir mon-projet
-cd mon-projet
-npx degit idris-maps/heig-datavis-2020/template/d3-batons
-npm install
-```
+# code
+https://github.com/Stephane-panda/datavis/tree/master/projet/Mldm 
+
+# visualisation 
+http://eminent-airport.surge.sh/
+
+Quel scripte je dois utiliser pour recréer le site à partir de votre code
