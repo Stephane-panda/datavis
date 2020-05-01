@@ -14,3 +14,8 @@ https://github.com/Stephane-panda/datavis/tree/master/projet/Mldm
 http://eminent-airport.surge.sh/
 
 Quel scripte je dois utiliser pour recréer le site à partir de votre code
+
+# À faire 
+debugger le graphique 
+colorisation 
+gestion de la souris est du clic 
