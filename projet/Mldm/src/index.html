@@ -1,31 +1,167 @@
+
+​
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8"/>
-    <title>D3</title>
-<!--     <style>
-      circle {
-      fill: rgb(31, 119, 180);
-      fill-opacity: .25;
-      stroke: rgb(31, 119, 180);
-      stroke-width: 1px;
-      }
+<html lang="fr">
 
-      .leaf circle {
-      fill: #ff7f0e;
-      fill-opacity: 1;
-      }
+<head>
+    <meta charset="utf-8" />
+      <title>Marché de l'ingénieurie des média en suisse (2018)</title>
+    <meta name="description" content="chart (circle paking) d'une étude sur le marché de l'ingénieurie des média en suisse (2018), donnée de L'OFS provenant d'une étude avec l'AVS. 
+    voici le nombre d'emplois équivalents temps pleins des différents pôles de métiers disponibles pour un ingénieure des médias">
+    <meta name="author" content="Stéphane Bonda Belo, COMEM+ M47 2020, Data Visualisation">
+    <style>
+@font-face {
+font-family: 'Sketch Block';
+src: url('http://tangledindesign.com/codepen/fonts/sketch_block-webfont.eot');
+src: url('http://tangledindesign.com/codepen/fonts/sketch_block-webfont.eot?#iefix') format('embedded-opentype'),
+url('http://tangledindesign.com/codepen/fonts/sketch_block-webfont.woff') format('woff'),
+url('http://tangledindesign.com/codepen/fonts/sketch_block-webfont.ttf') format('truetype'),
+url('http://tangledindesign.com/codepen/fonts/sketch_block-webfont.svg#SketchBlockBold') format('svg');
+}
 
-      text {
-      font: 10px sans-serif;
-      text-anchor: middle;
-      cursor: pointer; cursor: hand
-      }
-      </style> -->
-  </head>
-  <body>
-    <Div id = chart></Div>
-    <script src="index.js"></script>
-    <script src="https://d3js.org/d3.v5.min.js"></script>
-  </body>
+@font-face {
+font-family: 'Museo 700';
+src: url('http://tangledindesign.com/codepen/fonts/Museo700-Regular-webfont.eot');
+src: url('http://tangledindesign.com/codepen/fonts/Museo700-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+url('http://tangledindesign.com/codepen/fonts/Museo700-Regular-webfont.woff') format('woff'),
+url('http://tangledindesign.com/codepen/fonts/Museo700-Regular-webfont.ttf') format('truetype'),
+url('http://tangledindesign.com/codepen/fonts/Museo700-Regular-webfont.svg#SketchBlockBold') format('svg');
+}
+
+@font-face {
+font-family: 'CallunaRegular';
+src: url('http://tangledindesign.com/codepen/fonts/Calluna-Regular-webfont.eot');
+src: url('http://tangledindesign.com/codepen/fonts/Calluna-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+url('http://tangledindesign.com/codepen/fonts/Calluna-Regular-webfont.woff') format('woff'),
+url('http://tangledindesign.com/codepen/fonts/Calluna-Regular-webfont.ttf') format('truetype'),
+url('http://tangledindesign.com/codepen/fonts/Calluna-Regular-webfont.svg#CallunaRegular') format('svg');
+}
+
+body {
+background: #333;
+color: #fff;
+}
+
+.container {
+width: 590px;
+margin-top: 10rem;
+margin-bottom: 10rem;
+margin:  auto;
+position: relative;
+}
+
+blockquote {
+width: 565px;
+font: 2.65em CallunaRegular;
+letter-spacing: .075em;
+float: left;
+padding: 45px 0 30px 25px;
+margin: 0;
+border-top: 2px dotted #858585;
+border-bottom: 2px dotted #858585;
+-webkit-transform: rotate(-3deg);
+-moz-transform: rotate(-3deg);
+}
+
+.container:before {
+content: "“";
+font-size: 13em;
+position: absolute;
+left: -100px;
+color: #666;
+}
+
+.container:after {
+content: "”";
+font-size: 13em;
+position: absolute;
+right: -100px;
+top: 150px;
+color: #666;
+}
+
+blockquote:first-line {
+font: 1.85em "Sketch Block";
+color: #fff79e;
+}
+
+blockquote:first-letter {
+font-size: 2.9em;
+text-transform: lowercase;
+float: left;
+line-height: .52em;
+margin-right: -18px;
+position: relative;
+z-index: 1;
+}
+
+blockquote strong:first-child {
+margin-left: 8px;
+letter-spacing: 0;
+}
+
+blockquote strong:last-child {
+font: 2em "Museo 700";
+text-transform: uppercase;
+letter-spacing: 0;
+}
+
+blockquote em {
+border-bottom: 2px dotted #858585;
+}
+
+blockquote + b {
+float: right;
+margin-top: 10px;
+font: 1.6em CallunaRegular;
+letter-spacing: .15em;
+}
+
+blockquote + b:first-letter {
+color: #fff79e;
+font-size: 1.3em;
+font-style: italic;
+letter-spacing: .25em;
+}
+
+@-moz-document url-prefix() {
+
+blockquote:first-letter {
+margin-top: -29px;
+}
+
+}
+
+    </style>
+</head>
+  <Div>
+     <article class="container">
+
+         <blockquote>
+             <em>le</em> <strong>Marché </strong> <em>de l'emploi des</em> <strong>Ingénieur des médias</strong>
+         </blockquote>
+
+         <b >Stéphane Bonda Belo</b>
+            
+     </article>
+     
+  </Div>
+  <P style="background: #333;
+color: #fff; margin-top: 30rem; margin-left: 12rem ; margin-right: 12rem;">Sur cette page vous trouverez ma recherche sur le Marché de l'emplois des ingénieures des médias en
+      suisse.
+      Les données utilisées proviennent des l'office fédéral de la statistique. 
+      Ces données ont été constituer par les déclarations AVS des habitants en 2018. ces valeurs ne sont donc a prendre
+      avec du recule.
+      Dans ce graphique on s'appercoit qu'il y a près de 2% des acteurs de l'informations ne pratiquait pas à l'époque
+      un métier qui entrait dans la nomenclature standard.
+      Cela démontre l'évolution qu'a connu les métiers de l'informations ces dernières années.</P>
+<div id="observablehq-df935134"></div>
+<script type="module">
+    import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/d/f95ec6a1fb094f86.js?v=3";
+const inspect = Inspector.into("#observablehq-df935134");
+(new Runtime).module(define, name => (name === "chart") && inspect());
+</script>
+​
+
 </html>

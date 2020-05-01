@@ -207,6 +207,19 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Profession exercée inconnue",
+
+      "children": [{
+          "name": "Profession exercée inconnue",
+          "children": [{
+                "name": "Profession exercée inconnue",
+                "value": 5872
+              }
+          ]
+        }
+      ]
     }
   ]
 }
