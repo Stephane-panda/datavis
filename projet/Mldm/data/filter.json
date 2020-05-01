@@ -1,81 +1,76 @@
 {
   "name": "Ingénieur média",
-  "children": [
-    {
+  "children": [{
       "name": "Communication et Marketing",
-      "children": [
-        {
+      "children": [{
           "name": "Business",
-          "children": [
-            {
+          "children": [{
               "name": "Directeurs de stratégie et planifications",
-              "nombre": 9084
+              "value": 9084
             },
             {
               "name": "Directeurs de marketing",
-              "nombre": 14548
+              "value": 14548
             },
             {
               "name": "Directeurs de publicité et relations publiques",
-              "nombre": 5715
+              "value": 5715
             },
             {
               "name": "Directeurs de recherche et développement",
-              "nombre": 7378
+              "value": 7378
             },
             {
-              "name": "Directeurs de technologies de l’information et de la communication",
-              "nombre": 10445
+              "name": "Directeurs de technologies de l'information et de la communication",
+              "value": 10445
             },
             {
               "name": "Chefs de projet",
-              "nombre": 40942
+              "value": 40942
             },
             {
               "name": "Business Analyst",
-              "nombre": 21569
+              "value": 21569
             }
           ]
         },
         {
           "name": "Marketing",
-          "children": [
-            {
+          "children": [{
               "name": "Spécialistes du marketing et de la publicité",
-              "nombre": 33551
+              "value": 33551
             },
             {
               "name": "Spécialistes des relations publiques",
-              "nombre": 5690
+              "value": 5690
             },
             {
               "name": "Market resaearch analyst",
-              "nombre": 333
+              "value": 333
             },
             {
-              "name": "Organisateurs de conférences et d’événements",
-              "nombre": 4835
+              "name": "Organisateurs de conférences et d'événements",
+              "value": 4835
             },
             {
               "name": "Télévendeurs",
-              "nombre": 215
+              "value": 215
             },
             {
               "name": "Médiamaticiens",
-              "nombre": 4655
+              "value": 4655
             }
           ]
         },
         {
           "name": "Rédaction",
-          "children": [
-            {
+          "children": [{
               "name": "Journalistes",
-              "nombre": 11664
+              "value": 11664
             },
             {
               "name": "Traducteurs, interprètes et linguistes",
-              "nombre": 5721
+              "value": 5721
             }
           ]
         }
@@ -83,79 +78,75 @@
     },
     {
       "name": "Informatique ",
-      "children": [
-        {
+      "children": [{
           "name": "Développeur",
-          "children": [
-            {
+          "children": [{
               "name": "Ingénieurs en informatique",
-              "nombre": 4702
+              "value": 4702
             },
             {
               "name": "Spécialistes TIC",
-              "nombre": 17174
+              "value": 17174
             },
             {
               "name": "Concepteurs de logiciels",
-              "nombre": 45353
+              "value": 45353
             },
             {
-              "name": "Programmeurs d’applications",
-              "nombre": 5275
+              "name": "Programmeurs d'applications",
+              "value": 5275
             }
           ]
         },
         {
           "name": "Réseau",
-          "children": [
-            {
+          "children": [{
               "name": "Spécialistes des télécommunications",
-              "nombre": 979
+              "value": 979
             },
             {
               "name": "Architecte de réseau",
-              "nombre": 2126
+              "value": 2126
             },
             {
-              "name": "Techniciens de l’internet",
-              "nombre": 713
+              "name": "Techniciens de l'internet",
+              "value": 713
             },
             {
               "name": "Techniciens des télécommunications",
-              "nombre": 1493
+              "value": 1493
             }
           ]
         },
         {
           "name": "Système",
-          "children": [
-            {
+          "children": [{
               "name": "Analystes de systèmes",
-              "nombre": 26707
+              "value": 26707
             },
             {
               "name": "Spécialistes des bases de données",
-              "nombre": 3501
+              "value": 3501
             },
             {
               "name": "Administrateurs de systèmes",
-              "nombre": 3517
+              "value": 3517
             },
             {
               "name": "Spécialistes en sécurité et data mining",
-              "nombre": 2087
+              "value": 2087
             },
             {
               "name": "Opérateur de centre de données",
-              "nombre": 6277
+              "value": 6277
             },
             {
-              "name": "Techniciens, réseaux et systèmes d’ordinateurs",
-              "nombre": 1305
+              "name": "Techniciens, réseaux et systèmes d'ordinateurs",
+              "value": 1305
             },
             {
               "name": "Technicien de maintenance en informatique",
-              "nombre": 6809
+              "value": 6809
             }
           ]
         }
@@ -163,59 +154,55 @@
     },
     {
       "name": "Design et Creation",
-      "children": [
-        {
+      "children": [{
           "name": "Média",
-          "children": [
-            {
+          "children": [{
               "name": "Concepteurs graphiques, multimédia – graphistes",
-              "nombre": 11803
+              "value": 11803
             },
             {
               "name": "UX Designer",
-              "nombre": 202
+              "value": 202
             },
             {
               "name": "Photographes",
-              "nombre": 4796
+              "value": 4796
             },
             {
               "name": "Techniciens de l'audiovisuel",
-              "nombre": 4321
+              "value": 4321
             },
             {
               "name": "Compositeurs, musiciens et chanteurs",
-              "nombre": 8259
+              "value": 8259
             }
           ]
         },
         {
           "name": "Imprimé",
-          "children": [
-            {
+          "children": [{
               "name": "Techniciens de prépresse",
-              "nombre": 5991
+              "value": 5991
             },
             {
               "name": "Imprimeurs",
-              "nombre": 4641
+              "value": 4641
             },
             {
               "name": "Relieurs et assimilés",
-              "nombre": 1304
+              "value": 1304
             }
           ]
         },
         {
           "name": "Art",
-          "children": [
-            {
-              "name": "Metteurs en scène de cinéma, de théâtre et d’autres spectacles",
-              "nombre": 5288
+          "children": [{
+              "name": "Metteurs en scène de cinéma, de théâtre et d'autres spectacles",
+              "value": 5288
             },
             {
               "name": "Artistes créateurs et exécutants",
-              "nombre": 1295
+              "value": 1295
             }
           ]
         }

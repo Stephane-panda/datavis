@@ -1,31 +1,45 @@
+
 import {
   select,
-  pack,
   hierarchy,
+  pack,
+  nest
 } from 'd3'
 
 import data from '../data/filter.json'
 
-console.log(data)
+const WIDTH = 1000
+const h = hierarchy(data).sum(d => d.value)
+// packed
+const packedPack = pack().size([WIDTH, WIDTH]).padding(2)(h)
 
-const radius = 700;
 
-const svg = select("#chart").append("svg")
-  .attr("width", radius)
-  .attr("height", radius)
-  .attr("id", "svg");
+const svg = select('#chart').append('svg')
+  .attr('viewBox', `0 0 ${WIDTH} ${WIDTH}`)
 
-const g = svg.append("g").attr("transform", "translate(2,2)");
+  const node = svg.selectAll("g")
+  .data(nest().key(d => d.height).entries(packedPack.descendants()))
+  .join("g")
+  .selectAll("g")
+  .data(d => d.values)
+  .join("g")
+  .attr("transform", d => `translate(${d.x + 1},${d.y + 1})`)
 
-const packLayout = pack()
-  .size([radius - 4, radius - 4]) // lié à la translation précédente
-  .padding(1.5);
+  node.append("circle")
+  .attr('stroke', 'black')
+  .attr('fill', 'none')
+  .attr("r", d => d.r)
+const leaf = node.filter(d => !d.children)
 
-  let root = hierarchy(data)
-    .sum(d => d.nombre)
-    .sort((a, b) => b.value - a.value);
-
-    root = packLayout(root).descendants();
+leaf.append("text")
+  .attr('font-size', 8)
+  .attr("text-anchor", "middle")
+  .selectAll("tspan")
+  .data(d => d.data.name.split(/(?=[A-Z][a-z])|\s+/g))
+  .join("tspan")
+  .attr("x", 0)
+  .attr("y", (d, i, nodes) => `${i - nodes.length / 2 + 0.8}em`)
+  .text(d => d)
 
 /*
 function mouseover(d) {
@@ -84,3 +98,24 @@ function mouseover(d) {
       d3.select(this).on("mouseover", mouseover);
     });
 }*/
+
+/* canvas width and hight 
+
+pseudo code 
+créer des cercle radius 
+radius propotionel a value 
+max raduis = ingénieurie des medias 
+labelé name 
+.fill 
+.color
+
+mouseover()
+.show(nombre)
+
+onclic()
+.hide parrents
+.remouve attr fill
+.add attr strok
+max radus = radus element 
+.show children 
+ */
