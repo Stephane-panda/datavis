@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Exercice canvas</title>
+</head>
+
+<body>
+    <canvas id="dessin" width="1000" height="500"></canvas>
+    <script>
+        const canvas = document.getElementById('dessin')
+        const context = canvas.getContext('2d')
+
+        let width = 1000 
+        let height = 500 
+// head
+        context.beginPath()
+        context.arc(width/2, height/2, height / 3, 0, Math.PI * 2)
+        context.fillStyle = 'gold'
+        context.fill()
+
+        // un arc où le rayon et l'angle d'arrivée sont le résultat des "sliders" plus haut
+//mouth
+        let rayon =  55
+        let angleDeDepart = 0.6
+        let angleDArrivee = 2.5
+        context.beginPath()
+        context.arc(width / 2, height /1.8 , rayon, angleDeDepart, angleDArrivee)
+        context.lineWidth = 5
+        context.stroke()
+//eyes
+
+//eye bole 
+context.beginPath()
+context.arc(width/2.3, height/2.3, 30, 0, Math.PI * 2)
+context.fillStyle = 'white'
+context.fill()
+
+context.beginPath()
+context.arc(width/1.75, height/2.3, 30, 0, Math.PI * 2)
+context.fillStyle = 'white'
+context.fill()
+
+// pupille
+context.beginPath()
+context.arc(width/2.3, height/2.3, 20, 0, Math.PI * 2)
+context.fillStyle = 'black'
+context.fill()
+
+context.beginPath()
+context.arc(width/1.75, height/2.3, 20, 0, Math.PI * 2)
+context.fillStyle = 'black'
+context.fill()
+    </script>
+</body>
+
+</html>
