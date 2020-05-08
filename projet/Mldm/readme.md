@@ -12,9 +12,15 @@ Elle ont été trier à la main pour gardé que les métiers des médias
 # code
 https://github.com/Stephane-panda/datavis/tree/master/projet/Mldm 
 
+https://observablehq.com/d/f95ec6a1fb094f86
+
+
 # visualisation 
 http://eminent-airport.surge.sh/
 
-Quel scripte je dois utiliser pour recréer le site à partir de votre code
+# Quel scripte je dois utiliser pour recréer le site à partir de votre code
+
+un embed de observable 
+https://observablehq.com/@observablehq/downloading-and-embedding-notebooks
 
 
